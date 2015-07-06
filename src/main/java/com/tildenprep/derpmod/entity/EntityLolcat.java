@@ -25,11 +25,6 @@ public class EntityLolcat extends EntityOcelot{
         this.tasks.addTask(6, new EntityAIWatchClosest(this, EntityPlayer.class, 10.0F));
     }
 
-    @Override
-    public IEntityLivingData onSpawnWithEgg(IEntityLivingData p_110161_1_) {
-        setTamed(true);
-        return super.onSpawnWithEgg(p_110161_1_);
-    }
 
     public boolean canDespawn() { return false; }
 }

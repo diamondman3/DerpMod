@@ -1,6 +1,5 @@
 {
-    "parent": "block/cube_all",
-    "textures": {
-        "all": "derpMod/assets/textures/blocks/trollOre"
-    }
+"variants": {
+"normal": { "model": "trollore_model" }
+}
 }

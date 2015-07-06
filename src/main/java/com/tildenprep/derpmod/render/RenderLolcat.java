@@ -2,6 +2,7 @@ package com.tildenprep.derpmod.render;
 
 import com.tildenprep.derpmod.DerpMod;
 import net.minecraft.client.model.ModelOcelot;
+import net.minecraft.client.renderer.entity.RenderManager;
 import net.minecraft.client.renderer.entity.RenderOcelot;
 import net.minecraft.entity.Entity;
 import net.minecraft.util.ResourceLocation;
@@ -11,8 +12,8 @@ import net.minecraft.util.ResourceLocation;
  */
 public class RenderLolcat extends RenderOcelot{
 
-    public RenderLolcat(ModelOcelot model, Float f){
-        super(model, f);
+    public RenderLolcat(RenderManager renderManager, ModelOcelot model, Float f){
+        super(renderManager, model, f);
     }
 
 

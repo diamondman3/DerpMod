@@ -1,6 +1,5 @@
 {
-    "parent": "block/cube_all",
-    "textures": {
-        "all": "derpMod/assets/textures/blocks/rageOre"
-    }
+"variants": {
+"normal": { "model": "rageore_model" }
+}
 }

@@ -3,6 +3,8 @@ package com.tildenprep.derpmod.block;
 import com.tildenprep.derpmod.DerpMod;
 import net.minecraft.block.Block;
 import net.minecraft.block.material.Material;
+import net.minecraft.client.Minecraft;
+import net.minecraft.client.resources.model.ModelResourceLocation;
 import net.minecraft.creativetab.CreativeTabs;
 
 import java.util.Random;
