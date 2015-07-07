@@ -108,6 +108,8 @@ public class DerpMod
 	public void preInit(FMLPreInitializationEvent event)
 	{
 		EntityManager.mainRegistry();
+        BlockRegister registry = new BlockRegister();
+        registry.registerBlocks();
 
         itemBurger = new ItemBurger();
         itemCheese = new ItemCheese();
@@ -121,10 +123,6 @@ public class DerpMod
         GameRegistry.addShapelessRecipe(new ItemStack(itemCheese, 1), new ItemStack(Items.milk_bucket), new ItemStack(Items.sugar));
         GameRegistry.addShapelessRecipe(new ItemStack(itemCheeseburger, 1), new ItemStack(itemBurger, 1), new ItemStack(itemCheese, 1));
 
-		GameRegistry.registerBlock(derpOre, derpOre.getUnlocalizedName());
-		GameRegistry.registerBlock(trollOre, trollOre.getUnlocalizedName());
-		GameRegistry.registerBlock(rageOre, rageOre.getUnlocalizedName());
-
         derpIngot = new ItemDerpIngot();
 		ItemStack dIS = new ItemStack(derpIngot, 1);
 		GameRegistry.addSmelting(derpOre, dIS, 1F);
@@ -132,7 +130,6 @@ public class DerpMod
 		Item.ToolMaterial derpM = new EnumHelper().addToolMaterial("Derp", 5, 251, 100F, 2F, 30);
 		final ArmorMaterial derpArmorMat = new EnumHelper().addArmorMaterial("derp", "textures/models/armor/derpArmorLayer1", 259, new int[]{2, 6, 5, 2}, 15);
 
-		GameRegistry.registerBlock(derpBlock, derpBlock.getUnlocalizedName());
 		GameRegistry.addShapedRecipe(new ItemStack(derpBlock, 1), "ddd", "ddd", "ddd", 'd', dIS);
 		GameRegistry.addShapelessRecipe(new ItemStack(derpIngot, 9), new ItemStack(derpBlock));
 
@@ -196,7 +193,6 @@ public class DerpMod
 		GameRegistry.addShapedRecipe(new ItemStack(trollGem, 8), "ooo", "oco", "ooo", 'o', new ItemStack(trollOre), 'c', new ItemStack(Items.coal));
 		Item.ToolMaterial trollM = new EnumHelper().addToolMaterial("Troll", 5, 1337, 100F, 1F, 30);
 
-		GameRegistry.registerBlock(trollBlock, trollBlock.getUnlocalizedName());
 		GameRegistry.addShapedRecipe(new ItemStack(trollBlock, 1), "ttt", "ttt", "ttt", 't', new ItemStack(trollGem));
 		GameRegistry.addShapelessRecipe(new ItemStack(trollGem, 9), new ItemStack(trollBlock, 1));
 
@@ -226,7 +222,6 @@ public class DerpMod
 		GameRegistry.registerItem(itemAntibacon, itemAntibacon.getUnlocalizedName());
 		GameRegistry.addShapedRecipe(new ItemStack(itemAntibacon, 8), "ppp", "ptp", "ppp", 'p', new ItemStack(Items.cooked_porkchop), 't', tGS);
 
-		GameRegistry.registerBlock(repeaterBomb, repeaterBomb.getUnlocalizedName());
 		GameRegistry.addShapelessRecipe(new ItemStack(repeaterBomb, 1), Items.repeater, Blocks.tnt, trollGem);
 		
 		int entityId = EntityRegistry.findGlobalUniqueEntityId();
@@ -274,8 +269,7 @@ public class DerpMod
 		GameRegistry.addSmelting(uris4, uris5, 0F);
 		GameRegistry.addSmelting(uris5, uris6, 0F);
 		GameRegistry.addSmelting(uris6, criStack, 100F);
-		
-		GameRegistry.registerBlock(rageBlock, rageBlock.getUnlocalizedName());
+
 		GameRegistry.addShapedRecipe(new ItemStack(rageBlock, 1), "rrr", "rrr", "rrr", 'r', criStack);
 		GameRegistry.addShapelessRecipe(new ItemStack(cri, 9), new ItemStack(rageBlock, 1));
 

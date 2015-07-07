@@ -6,6 +6,7 @@ import net.minecraft.block.material.Material;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.resources.model.ModelResourceLocation;
 import net.minecraft.creativetab.CreativeTabs;
+import net.minecraftforge.fml.common.registry.GameRegistry;
 
 import java.util.Random;
 
@@ -28,5 +29,4 @@ public class DerpBlock extends Block {
     {
         return 0;
     }
-
 }

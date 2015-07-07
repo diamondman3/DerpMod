@@ -15,4 +15,6 @@ public class GenericBlock extends Block
         super(material);
 
     }
+
+    public String getName(){return this.getUnlocalizedName();}
 }
