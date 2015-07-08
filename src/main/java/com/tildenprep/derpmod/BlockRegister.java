@@ -10,14 +10,7 @@ import java.util.ArrayList;
  */
 public class BlockRegister {
 
-    public void registerBlocks(){
-
-        GameRegistry.registerBlock(derpOre, derpOre.getUnlocalizedName());
-        GameRegistry.registerBlock(trollOre, trollOre.getUnlocalizedName());
-        GameRegistry.registerBlock(rageOre, rageOre.getUnlocalizedName());
-        GameRegistry.registerBlock(derpBlock, derpBlock.getUnlocalizedName());
-        GameRegistry.registerBlock(trollBlock, trollBlock.getUnlocalizedName());
-        GameRegistry.registerBlock(rageBlock, rageBlock.getUnlocalizedName());
-        GameRegistry.registerBlock(repeaterBomb, repeaterBomb.getUnlocalizedName());
+    public void registerBlocks(Block block){
+        GameRegistry.registerBlock(block, block.getUnlocalizedName());
     }
 }

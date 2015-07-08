@@ -12,4 +12,8 @@ public class GenericItem extends Item {
         super();
     }
 
+    public String getName(){
+        return this.getUnlocalizedName();
+    }
+
 }

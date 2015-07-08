@@ -1,6 +1,7 @@
 package com.tildenprep.derpmod.client.tool;
 
 import com.tildenprep.derpmod.DerpMod;
+import com.tildenprep.derpmod.client.GenericItem;
 import net.minecraft.entity.EntityCreature;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.item.Item;
@@ -10,7 +11,7 @@ import net.minecraft.world.WorldSettings;
 /**
  * Created by diamondman3 on 11/9/2014.
  */
-public class ItemTrollchemistsStone extends Item {
+public class ItemTrollchemistsStone extends GenericItem{
     public ItemTrollchemistsStone(){
         super();
         setCreativeTab(DerpMod.tabDerpMod);

@@ -1,5 +1,6 @@
 package com.tildenprep.derpmod.client.lore;
 
+import com.tildenprep.derpmod.client.GenericItem;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
@@ -11,7 +12,7 @@ import java.util.List;
  * Created by diamondman3 on 11/8/2014.
  */
 
-public class ItemMultipleItemsWithLore extends Item {
+public class ItemMultipleItemsWithLore extends GenericItem {
 
     //text in the lore
     String loreTextLn1;

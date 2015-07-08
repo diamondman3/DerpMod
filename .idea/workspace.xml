@@ -2,18 +2,239 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c9751d07-bcee-4fdd-8a66-4a9eebf9c19a" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/tildenprep/derpmod/BlockRegister.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/assets/derpmod/models/item/derpblock_model.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/assets/derpmod/models/item/derpore_model.json" />
-      <change type="MOVED" beforePath="C:\Users\diamondman3\IdeaProjects\DerpMod1.8\src\main\resources\assets\derpmod\blockstates\derpore.json.json" afterPath="$PROJECT_DIR$/src/main/resources/assets/derpmod/blockstates/derpore.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/tildenprep/derpmod/block/DerpBlock.java" afterPath="$PROJECT_DIR$/src/main/java/com/tildenprep/derpmod/block/DerpBlock.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/tildenprep/derpmod/DerpMod.java" afterPath="$PROJECT_DIR$/src/main/java/com/tildenprep/derpmod/DerpMod.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/tildenprep/derpmod/block/GenericBlock.java" afterPath="$PROJECT_DIR$/src/main/java/com/tildenprep/derpmod/block/GenericBlock.java" />
-      <change type="MODIFICATION" beforePath="C:\Users\diamondman3\IdeaProjects\DerpMod1.8\src\main\resources\assets\derpmod\blockstates\derpblock.json" afterPath="$PROJECT_DIR$/src/main/resources/assets/derpmod/blockstates/derpblock.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eclipse/logs/fml-client-latest.log" afterPath="$PROJECT_DIR$/eclipse/logs/fml-client-latest.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eclipse/logs/fml-junk-earlystartup.log" afterPath="$PROJECT_DIR$/eclipse/logs/fml-junk-earlystartup.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eclipse/logs/latest.log" afterPath="$PROJECT_DIR$/eclipse/logs/latest.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/assets/derpmod/models/item/ItemDerpIngot.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/tildenprep/derpmod/PotionRegistry.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/tildenprep/derpmod/client/food/PotionTrollLogicImmortality.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/tildenprep/derpmod/block/ReversePiston.java" />
+      <change type="DELETED" beforePath="C:\Users\student\IdeaProjects\DerpMod\.idea\.name" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\student\IdeaProjects\DerpMod\.idea\compiler.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\student\IdeaProjects\DerpMod\.idea\copyright\profiles_settings.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\student\IdeaProjects\DerpMod\.idea\encodings.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\student\IdeaProjects\DerpMod\.idea\gradle.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\student\IdeaProjects\DerpMod\.idea\libraries\Gradle__akka_actor_2_11_2_3_3.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\student\IdeaProjects\DerpMod\.idea\libraries\Gradle__asm_debug_all_5_0_3.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\student\IdeaProjects\DerpMod\.idea\libraries\Gradle__authlib_1_5_17.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\student\IdeaProjects\DerpMod\.idea\libraries\Gradle__codecjorbis_20101023.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\student\IdeaProjects\DerpMod\.idea\libraries\Gradle__codecwav_20101023.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\student\IdeaProjects\DerpMod\.idea\libraries\Gradle__commons_codec_1_9.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\student\IdeaProjects\DerpMod\.idea\libraries\Gradle__commons_compress_1_8_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\student\IdeaProjects\DerpMod\.idea\libraries\Gradle__commons_io_2_4.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\student\IdeaProjects\DerpMod\.idea\libraries\Gradle__commons_lang3_3_3_2.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\student\IdeaProjects\DerpMod\.idea\libraries\Gradle__commons_logging_1_1_3.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\student\IdeaProjects\DerpMod\.idea\libraries\Gradle__config_1_2_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\student\IdeaProjects\DerpMod\.idea\libraries\Gradle__forgeSrc_1_8_11_14_0_1299.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\student\IdeaProjects\DerpMod\.idea\libraries\Gradle__gson_2_2_4.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\student\IdeaProjects\DerpMod\.idea\libraries\Gradle__guava_17_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\student\IdeaProjects\DerpMod\.idea\libraries\Gradle__httpclient_4_3_3.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\student\IdeaProjects\DerpMod\.idea\libraries\Gradle__httpcore_4_3_2.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\student\IdeaProjects\DerpMod\.idea\libraries\Gradle__icu4j_core_mojang_51_2.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\student\IdeaProjects\DerpMod\.idea\libraries\Gradle__jinput_2_0_5.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\student\IdeaProjects\DerpMod\.idea\libraries\Gradle__jinput_platform_2_0_5_natives_linux.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\student\IdeaProjects\DerpMod\.idea\libraries\Gradle__jinput_platform_2_0_5_natives_osx.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\student\IdeaProjects\DerpMod\.idea\libraries\Gradle__jinput_platform_2_0_5_natives_windows.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\student\IdeaProjects\DerpMod\.idea\libraries\Gradle__jopt_simple_4_6.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\student\IdeaProjects\DerpMod\.idea\libraries\Gradle__jsr305_2_0_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\student\IdeaProjects\DerpMod\.idea\libraries\Gradle__jutils_1_0_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\student\IdeaProjects\DerpMod\.idea\libraries\Gradle__launchwrapper_1_11.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\student\IdeaProjects\DerpMod\.idea\libraries\Gradle__libraryjavasound_20101123.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\student\IdeaProjects\DerpMod\.idea\libraries\Gradle__librarylwjglopenal_20100824.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\student\IdeaProjects\DerpMod\.idea\libraries\Gradle__log4j_api_2_0_beta9.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\student\IdeaProjects\DerpMod\.idea\libraries\Gradle__log4j_core_2_0_beta9.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\student\IdeaProjects\DerpMod\.idea\libraries\Gradle__lwjgl_2_9_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\student\IdeaProjects\DerpMod\.idea\libraries\Gradle__lwjgl_platform_2_9_1_natives_linux.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\student\IdeaProjects\DerpMod\.idea\libraries\Gradle__lwjgl_platform_2_9_1_natives_osx.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\student\IdeaProjects\DerpMod\.idea\libraries\Gradle__lwjgl_platform_2_9_1_natives_windows.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\student\IdeaProjects\DerpMod\.idea\libraries\Gradle__lwjgl_util_2_9_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\student\IdeaProjects\DerpMod\.idea\libraries\Gradle__lzma_0_0_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\student\IdeaProjects\DerpMod\.idea\libraries\Gradle__netty_all_4_0_15_Final.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\student\IdeaProjects\DerpMod\.idea\libraries\Gradle__realms_1_6_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\student\IdeaProjects\DerpMod\.idea\libraries\Gradle__scala_actors_2_11_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\student\IdeaProjects\DerpMod\.idea\libraries\Gradle__scala_actors_migration_2_11_1_1_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\student\IdeaProjects\DerpMod\.idea\libraries\Gradle__scala_compiler_2_11_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\student\IdeaProjects\DerpMod\.idea\libraries\Gradle__scala_continuations_library_2_11_1_0_2.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\student\IdeaProjects\DerpMod\.idea\libraries\Gradle__scala_continuations_plugin_2_11_1_1_0_2.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\student\IdeaProjects\DerpMod\.idea\libraries\Gradle__scala_library_2_11_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\student\IdeaProjects\DerpMod\.idea\libraries\Gradle__scala_parser_combinators_2_11_1_0_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\student\IdeaProjects\DerpMod\.idea\libraries\Gradle__scala_reflect_2_11_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\student\IdeaProjects\DerpMod\.idea\libraries\Gradle__scala_swing_2_11_1_0_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\student\IdeaProjects\DerpMod\.idea\libraries\Gradle__scala_xml_2_11_1_0_2.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\student\IdeaProjects\DerpMod\.idea\libraries\Gradle__soundsystem_20120107.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\student\IdeaProjects\DerpMod\.idea\libraries\Gradle__trove4j_3_0_3.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\student\IdeaProjects\DerpMod\.idea\libraries\Gradle__twitch_6_5.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\student\IdeaProjects\DerpMod\.idea\libraries\Gradle__twitch_external_platform_4_5_natives_windows_32.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\student\IdeaProjects\DerpMod\.idea\libraries\Gradle__twitch_external_platform_4_5_natives_windows_64.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\student\IdeaProjects\DerpMod\.idea\libraries\Gradle__twitch_platform_6_5_natives_osx.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\student\IdeaProjects\DerpMod\.idea\libraries\Gradle__twitch_platform_6_5_natives_windows_32.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\student\IdeaProjects\DerpMod\.idea\libraries\Gradle__twitch_platform_6_5_natives_windows_64.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\student\IdeaProjects\DerpMod\.idea\libraries\Gradle__vecmath_1_5_2.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\student\IdeaProjects\DerpMod\.idea\misc.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\student\IdeaProjects\DerpMod\.idea\modules.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\student\IdeaProjects\DerpMod\.idea\scopes\scope_settings.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\student\IdeaProjects\DerpMod\.idea\uiDesigner.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\student\IdeaProjects\DerpMod\.idea\vcs.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\student\IdeaProjects\DerpMod\.idea\workspace.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\student\IdeaProjects\DerpMod\CREDITS-fml.txt" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\student\IdeaProjects\DerpMod\LICENSE-fml.txt" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\student\IdeaProjects\DerpMod\MinecraftForge-Credits.txt" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\student\IdeaProjects\DerpMod\MinecraftForge-License.txt" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\student\IdeaProjects\DerpMod\README.txt" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\student\IdeaProjects\DerpMod\eclipse\.metadata\.plugins\org.eclipse.core.resources\.projects\Minecraft\.location" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\student\IdeaProjects\DerpMod\eclipse\.metadata\.plugins\org.eclipse.core.resources\.root\0.tree" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\student\IdeaProjects\DerpMod\eclipse\.metadata\.plugins\org.eclipse.core.runtime\.settings\org.eclipse.core.resources.prefs" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\student\IdeaProjects\DerpMod\eclipse\.metadata\.plugins\org.eclipse.core.runtime\.settings\org.eclipse.debug.ui.prefs" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\student\IdeaProjects\DerpMod\eclipse\.metadata\.plugins\org.eclipse.core.runtime\.settings\org.eclipse.epp.usagedata.gathering.prefs" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\student\IdeaProjects\DerpMod\eclipse\.metadata\.plugins\org.eclipse.core.runtime\.settings\org.eclipse.jdt.core.prefs" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\student\IdeaProjects\DerpMod\eclipse\.metadata\.plugins\org.eclipse.core.runtime\.settings\org.eclipse.ui.editors.prefs" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\student\IdeaProjects\DerpMod\eclipse\.metadata\.plugins\org.eclipse.core.runtime\.settings\org.eclipse.ui.ide.prefs" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\student\IdeaProjects\DerpMod\eclipse\.metadata\.plugins\org.eclipse.core.runtime\.settings\org.eclipse.ui.prefs" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\student\IdeaProjects\DerpMod\eclipse\.metadata\.plugins\org.eclipse.debug.core\.launches\Client.launch" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\student\IdeaProjects\DerpMod\eclipse\.metadata\.plugins\org.eclipse.debug.core\.launches\Server.launch" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\student\IdeaProjects\DerpMod\eclipse\.metadata\.plugins\org.eclipse.debug.ui\launchConfigurationHistory.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\student\IdeaProjects\DerpMod\eclipse\config\forge.cfg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\student\IdeaProjects\DerpMod\eclipse\config\forgeChunkLoading.cfg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\student\IdeaProjects\DerpMod\eclipse\logs\fml-client-latest.log" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\student\IdeaProjects\DerpMod\eclipse\logs\fml-junk-earlystartup.log" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\student\IdeaProjects\DerpMod\eclipse\logs\latest.log" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\student\IdeaProjects\DerpMod\forge-1.8-11.14.0.1299-changelog.txt" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\student\IdeaProjects\DerpMod\gradle\wrapper\gradle-wrapper.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\student\IdeaProjects\DerpMod\gradle\wrapper\gradle-wrapper.properties" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\student\IdeaProjects\DerpMod\gradlew" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\student\IdeaProjects\DerpMod\gradlew.bat" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\student\IdeaProjects\DerpMod\src\.idea\.name" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\student\IdeaProjects\DerpMod\src\.idea\compiler.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\student\IdeaProjects\DerpMod\src\.idea\copyright\profiles_settings.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\student\IdeaProjects\DerpMod\src\.idea\encodings.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\student\IdeaProjects\DerpMod\src\.idea\misc.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\student\IdeaProjects\DerpMod\src\.idea\modules.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\student\IdeaProjects\DerpMod\src\.idea\scopes\scope_settings.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\student\IdeaProjects\DerpMod\src\.idea\src.iml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\student\IdeaProjects\DerpMod\src\.idea\vcs.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\student\IdeaProjects\DerpMod\src\.idea\workspace.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\student\IdeaProjects\DerpMod\src\main\java\com\tildenprep\derpmod\BlockRegister.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\student\IdeaProjects\DerpMod\src\main\java\com\tildenprep\derpmod\CommonProxy.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\student\IdeaProjects\DerpMod\src\main\java\com\tildenprep\derpmod\DerpItemCraftedEvent.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\student\IdeaProjects\DerpMod\src\main\java\com\tildenprep\derpmod\DerpMod.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\student\IdeaProjects\DerpMod\src\main\java\com\tildenprep\derpmod\block\DerpBlock.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\student\IdeaProjects\DerpMod\src\main\java\com\tildenprep\derpmod\block\DerpOre.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\student\IdeaProjects\DerpMod\src\main\java\com\tildenprep\derpmod\block\GenericBlock.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\student\IdeaProjects\DerpMod\src\main\java\com\tildenprep\derpmod\block\RageBlock.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\student\IdeaProjects\DerpMod\src\main\java\com\tildenprep\derpmod\block\RageOre.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\student\IdeaProjects\DerpMod\src\main\java\com\tildenprep\derpmod\block\RepeaterBomb.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\student\IdeaProjects\DerpMod\src\main\java\com\tildenprep\derpmod\block\TrollBlock.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\student\IdeaProjects\DerpMod\src\main\java\com\tildenprep\derpmod\block\TrollOre.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\student\IdeaProjects\DerpMod\src\main\java\com\tildenprep\derpmod\client\ClientProxy.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\student\IdeaProjects\DerpMod\src\main\java\com\tildenprep\derpmod\client\GenericItem.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\student\IdeaProjects\DerpMod\src\main\java\com\tildenprep\derpmod\client\RickRollDisc.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\student\IdeaProjects\DerpMod\src\main\java\com\tildenprep\derpmod\client\combat\ItemBattlehoe.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\student\IdeaProjects\DerpMod\src\main\java\com\tildenprep\derpmod\client\combat\ItemDerpArmor.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\student\IdeaProjects\DerpMod\src\main\java\com\tildenprep\derpmod\client\combat\ItemDerpGrenade.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\student\IdeaProjects\DerpMod\src\main\java\com\tildenprep\derpmod\client\combat\ItemDerpSword.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\student\IdeaProjects\DerpMod\src\main\java\com\tildenprep\derpmod\client\combat\ItemExplosionScroll.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\student\IdeaProjects\DerpMod\src\main\java\com\tildenprep\derpmod\client\combat\ItemRageBattlehoe.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\student\IdeaProjects\DerpMod\src\main\java\com\tildenprep\derpmod\client\combat\ItemSwordOfGoodbye.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\student\IdeaProjects\DerpMod\src\main\java\com\tildenprep\derpmod\client\combat\ItemTrollsDagger.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\student\IdeaProjects\DerpMod\src\main\java\com\tildenprep\derpmod\client\food\ItemAntibacon.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\student\IdeaProjects\DerpMod\src\main\java\com\tildenprep\derpmod\client\food\ItemBurger.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\student\IdeaProjects\DerpMod\src\main\java\com\tildenprep\derpmod\client\food\ItemCheese.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\student\IdeaProjects\DerpMod\src\main\java\com\tildenprep\derpmod\client\food\ItemCheeseburger.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\student\IdeaProjects\DerpMod\src\main\java\com\tildenprep\derpmod\client\food\ItemTrolldenApple.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\student\IdeaProjects\DerpMod\src\main\java\com\tildenprep\derpmod\client\lore\ItemMultipleItemsWithLore.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\student\IdeaProjects\DerpMod\src\main\java\com\tildenprep\derpmod\client\lore\ItemSwordLore.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\student\IdeaProjects\DerpMod\src\main\java\com\tildenprep\derpmod\client\rawMaterials\ItemCompleteRageIngot.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\student\IdeaProjects\DerpMod\src\main\java\com\tildenprep\derpmod\client\rawMaterials\ItemDerpIngot.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\student\IdeaProjects\DerpMod\src\main\java\com\tildenprep\derpmod\client\rawMaterials\ItemTrollGem.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\student\IdeaProjects\DerpMod\src\main\java\com\tildenprep\derpmod\client\rawMaterials\ItemUnfinishedRageIngot.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\student\IdeaProjects\DerpMod\src\main\java\com\tildenprep\derpmod\client\tool\ItemDerpAxe.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\student\IdeaProjects\DerpMod\src\main\java\com\tildenprep\derpmod\client\tool\ItemDerpHoe.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\student\IdeaProjects\DerpMod\src\main\java\com\tildenprep\derpmod\client\tool\ItemDerpPickaxe.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\student\IdeaProjects\DerpMod\src\main\java\com\tildenprep\derpmod\client\tool\ItemDerpShovel.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\student\IdeaProjects\DerpMod\src\main\java\com\tildenprep\derpmod\client\tool\ItemPickOfDividingOresByAFraction.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\student\IdeaProjects\DerpMod\src\main\java\com\tildenprep\derpmod\client\tool\ItemTrollchemistsStone.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\student\IdeaProjects\DerpMod\src\main\java\com\tildenprep\derpmod\entity\EntityDerpGrenade.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\student\IdeaProjects\DerpMod\src\main\java\com\tildenprep\derpmod\entity\EntityLolcat.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\student\IdeaProjects\DerpMod\src\main\java\com\tildenprep\derpmod\entity\EntityManager.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\student\IdeaProjects\DerpMod\src\main\java\com\tildenprep\derpmod\entity\EntityRageGuy.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\student\IdeaProjects\DerpMod\src\main\java\com\tildenprep\derpmod\entity\ScrollSpellEntity.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\student\IdeaProjects\DerpMod\src\main\java\com\tildenprep\derpmod\model\RageGuyModel.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\student\IdeaProjects\DerpMod\src\main\java\com\tildenprep\derpmod\model\rageGuy.tcn" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\student\IdeaProjects\DerpMod\src\main\java\com\tildenprep\derpmod\render\RenderLolcat.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\student\IdeaProjects\DerpMod\src\main\java\com\tildenprep\derpmod\render\RenderRageGuy.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\student\IdeaProjects\DerpMod\src\main\java\com\tildenprep\derpmod\world\DerpWorld.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\student\IdeaProjects\DerpMod\src\main\java\com\tildenprep\derpmod\world\NondamagingExplosion.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\student\IdeaProjects\DerpMod\src\main\java\com\tildenprep\derpmod\world\WorldGenDerp.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\student\IdeaProjects\DerpMod\src\main\resources\assets\derpmod\blockstates\derpblock.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\student\IdeaProjects\DerpMod\src\main\resources\assets\derpmod\blockstates\derpore.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\student\IdeaProjects\DerpMod\src\main\resources\assets\derpmod\blockstates\rageblock.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\student\IdeaProjects\DerpMod\src\main\resources\assets\derpmod\blockstates\rageore.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\student\IdeaProjects\DerpMod\src\main\resources\assets\derpmod\blockstates\repeaterbomb.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\student\IdeaProjects\DerpMod\src\main\resources\assets\derpmod\blockstates\trollblock.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\student\IdeaProjects\DerpMod\src\main\resources\assets\derpmod\blockstates\trollore.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\student\IdeaProjects\DerpMod\src\main\resources\assets\derpmod\lang\en_CA.lang" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\student\IdeaProjects\DerpMod\src\main\resources\assets\derpmod\lang\en_GB.lang" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\student\IdeaProjects\DerpMod\src\main\resources\assets\derpmod\lang\en_PT.lang" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\student\IdeaProjects\DerpMod\src\main\resources\assets\derpmod\lang\en_US.lang" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\student\IdeaProjects\DerpMod\src\main\resources\assets\derpmod\models\block\derpblock_model.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\student\IdeaProjects\DerpMod\src\main\resources\assets\derpmod\models\block\derpore_model.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\student\IdeaProjects\DerpMod\src\main\resources\assets\derpmod\models\block\rageblock_model.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\student\IdeaProjects\DerpMod\src\main\resources\assets\derpmod\models\block\rageore_model.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\student\IdeaProjects\DerpMod\src\main\resources\assets\derpmod\models\block\trollblock_model.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\student\IdeaProjects\DerpMod\src\main\resources\assets\derpmod\models\block\trollore_model.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\student\IdeaProjects\DerpMod\src\main\resources\assets\derpmod\models\item\derpblock_model.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\student\IdeaProjects\DerpMod\src\main\resources\assets\derpmod\models\item\derpore_model.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\student\IdeaProjects\DerpMod\src\main\resources\assets\derpmod\sound\Thumbs.db" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\student\IdeaProjects\DerpMod\src\main\resources\assets\derpmod\textures\blocks\Thumbs.db" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\student\IdeaProjects\DerpMod\src\main\resources\assets\derpmod\textures\blocks\TrollOre.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\student\IdeaProjects\DerpMod\src\main\resources\assets\derpmod\textures\blocks\derpBlock.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\student\IdeaProjects\DerpMod\src\main\resources\assets\derpmod\textures\blocks\derpOre.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\student\IdeaProjects\DerpMod\src\main\resources\assets\derpmod\textures\blocks\rageBlock.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\student\IdeaProjects\DerpMod\src\main\resources\assets\derpmod\textures\blocks\rageOre.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\student\IdeaProjects\DerpMod\src\main\resources\assets\derpmod\textures\blocks\repeaterBomb.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\student\IdeaProjects\DerpMod\src\main\resources\assets\derpmod\textures\blocks\trollBlock.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\student\IdeaProjects\DerpMod\src\main\resources\assets\derpmod\textures\entity\Thumbs.db" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\student\IdeaProjects\DerpMod\src\main\resources\assets\derpmod\textures\entity\lolcat.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\student\IdeaProjects\DerpMod\src\main\resources\assets\derpmod\textures\entity\rageGuy.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\student\IdeaProjects\DerpMod\src\main\resources\assets\derpmod\textures\entity\rageGuy1point7.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\student\IdeaProjects\DerpMod\src\main\resources\assets\derpmod\textures\items\Thumbs.db" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\student\IdeaProjects\DerpMod\src\main\resources\assets\derpmod\textures\items\antibacon.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\student\IdeaProjects\DerpMod\src\main\resources\assets\derpmod\textures\items\burger.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\student\IdeaProjects\DerpMod\src\main\resources\assets\derpmod\textures\items\cheese.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\student\IdeaProjects\DerpMod\src\main\resources\assets\derpmod\textures\items\cheeseburger.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\student\IdeaProjects\DerpMod\src\main\resources\assets\derpmod\textures\items\derpAxe.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\student\IdeaProjects\DerpMod\src\main\resources\assets\derpmod\textures\items\derpBoots.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\student\IdeaProjects\DerpMod\src\main\resources\assets\derpmod\textures\items\derpGrenade.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\student\IdeaProjects\DerpMod\src\main\resources\assets\derpmod\textures\items\derpHelmet.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\student\IdeaProjects\DerpMod\src\main\resources\assets\derpmod\textures\items\derpHoe.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\student\IdeaProjects\DerpMod\src\main\resources\assets\derpmod\textures\items\derpIngot.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\student\IdeaProjects\DerpMod\src\main\resources\assets\derpmod\textures\items\derpPants.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\student\IdeaProjects\DerpMod\src\main\resources\assets\derpmod\textures\items\derpPickaxe.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\student\IdeaProjects\DerpMod\src\main\resources\assets\derpmod\textures\items\derpShirt.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\student\IdeaProjects\DerpMod\src\main\resources\assets\derpmod\textures\items\derpShovel.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\student\IdeaProjects\DerpMod\src\main\resources\assets\derpmod\textures\items\derpSword.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\student\IdeaProjects\DerpMod\src\main\resources\assets\derpmod\textures\items\explosionScroll.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\student\IdeaProjects\DerpMod\src\main\resources\assets\derpmod\textures\items\oreFracDivPick.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\student\IdeaProjects\DerpMod\src\main\resources\assets\derpmod\textures\items\rageHoe.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\student\IdeaProjects\DerpMod\src\main\resources\assets\derpmod\textures\items\rageIngot1.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\student\IdeaProjects\DerpMod\src\main\resources\assets\derpmod\textures\items\rageIngot2.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\student\IdeaProjects\DerpMod\src\main\resources\assets\derpmod\textures\items\rageIngot3.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\student\IdeaProjects\DerpMod\src\main\resources\assets\derpmod\textures\items\rageIngot4.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\student\IdeaProjects\DerpMod\src\main\resources\assets\derpmod\textures\items\rageIngot5.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\student\IdeaProjects\DerpMod\src\main\resources\assets\derpmod\textures\items\rageIngot6.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\student\IdeaProjects\DerpMod\src\main\resources\assets\derpmod\textures\items\rageIngot7.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\student\IdeaProjects\DerpMod\src\main\resources\assets\derpmod\textures\items\rageIngot8.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\student\IdeaProjects\DerpMod\src\main\resources\assets\derpmod\textures\items\repeaterBomb.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\student\IdeaProjects\DerpMod\src\main\resources\assets\derpmod\textures\items\rickRollDisc.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\student\IdeaProjects\DerpMod\src\main\resources\assets\derpmod\textures\items\swordOfGoodbye.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\student\IdeaProjects\DerpMod\src\main\resources\assets\derpmod\textures\items\trollGem.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\student\IdeaProjects\DerpMod\src\main\resources\assets\derpmod\textures\items\trollchemistsStone.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\student\IdeaProjects\DerpMod\src\main\resources\assets\derpmod\textures\items\trolldenApple.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\student\IdeaProjects\DerpMod\src\main\resources\assets\derpmod\textures\items\trollsDagger.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\student\IdeaProjects\DerpMod\src\main\resources\assets\derpmod\textures\misc\Thumbs.db" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\student\IdeaProjects\DerpMod\src\main\resources\assets\derpmod\textures\misc\mudkip.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\student\IdeaProjects\DerpMod\src\main\resources\assets\derpmod\textures\models\armor\derpArmorLayer1.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\student\IdeaProjects\DerpMod\src\main\resources\assets\derpmod\textures\models\armor\derpArmorLayer2.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\student\IdeaProjects\DerpMod\src\main\resources\mcmod.info" afterPath="" />
+      <change type="MOVED" beforePath="C:\Users\student\IdeaProjects\DerpMod\.idea\libraries\Gradle__C__Users_diamondman3__gradle_caches_minecraft_net_minecraftforge_forge_1_8_11_14_0_1299_start.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__C__Users_student__gradle_caches_minecraft_net_minecraftforge_forge_1_8_11_14_0_1299_start.xml" />
+      <change type="MOVED" beforePath="C:\Users\student\IdeaProjects\DerpMod\DerpMod1.8.iml" afterPath="$PROJECT_DIR$/DerpMod.iml" />
     </list>
     <ignored path="DerpMod1.8.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -67,8 +288,8 @@
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
     </breakpoint_any>
-    <ui_properties converted="true" />
     <breakpoint_rules converted="true" />
+    <ui_properties converted="true" />
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FavoritesManager">
@@ -76,41 +297,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="DerpMod.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/tildenprep/derpmod/DerpMod.java">
+      <file leaf-file-name="ReversePiston.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/tildenprep/derpmod/block/ReversePiston.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.15407854" vertical-offset="102" max-vertical-offset="4692">
-              <caret line="46" column="35" selection-start-line="46" selection-start-column="35" selection-end-line="46" selection-end-column="35" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DerpBlock.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/tildenprep/derpmod/block/DerpBlock.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="98" max-vertical-offset="459">
-              <caret line="31" column="0" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="GenericBlock.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/tildenprep/derpmod/block/GenericBlock.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="8" max-vertical-offset="408">
-              <caret line="18" column="62" selection-start-line="18" selection-start-column="62" selection-end-line="18" selection-end-column="62" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BlockRegister.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/tildenprep/derpmod/BlockRegister.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="68" max-vertical-offset="493">
-              <caret line="12" column="31" selection-start-line="12" selection-start-column="31" selection-end-line="12" selection-end-column="31" />
+            <state vertical-scroll-proportion="0.33186814" vertical-offset="274" max-vertical-offset="2006">
+              <caret line="25" column="20" selection-start-line="25" selection-start-column="20" selection-end-line="25" selection-end-column="20" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -118,51 +309,80 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="derpblock_model.json" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/assets/derpmod/models/item/derpblock_model.json">
+      <file leaf-file-name="BlockPistonBase.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="jar://$USER_HOME$/.gradle/caches/minecraft/net/minecraftforge/forge/1.8-11.14.0.1299/snapshot_nodoc/20141130/forgeSrc-1.8-11.14.0.1299-sources.jar!/net/minecraft/block/BlockPistonBase.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="255">
-              <caret line="9" column="1" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
+            <state vertical-scroll-proportion="-5.071429" vertical-offset="5808" max-vertical-offset="8976">
+              <caret line="359" column="3" selection-start-line="359" selection-start-column="3" selection-end-line="359" selection-end-column="96" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PropertyDirection.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="jar://$USER_HOME$/.gradle/caches/minecraft/net/minecraftforge/forge/1.8-11.14.0.1299/snapshot_nodoc/20141130/forgeSrc-1.8-11.14.0.1299-sources.jar!/net/minecraft/block/properties/PropertyDirection.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="459">
+              <caret line="25" column="46" selection-start-line="25" selection-start-column="46" selection-end-line="25" selection-end-column="46" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="derpore_model.json" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/assets/derpmod/models/item/derpore_model.json">
+      <file leaf-file-name="PropertyEnum.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="jar://$USER_HOME$/.gradle/caches/minecraft/net/minecraftforge/forge/1.8-11.14.0.1299/snapshot_nodoc/20141130/forgeSrc-1.8-11.14.0.1299-sources.jar!/net/minecraft/block/properties/PropertyEnum.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="255">
-              <caret line="1" column="36" selection-start-line="1" selection-start-column="36" selection-end-line="1" selection-end-column="36" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="986">
+              <caret line="64" column="26" selection-start-line="64" selection-start-column="26" selection-end-line="64" selection-end-column="26" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="derpore.json" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/assets/derpmod/blockstates/derpore.json">
+      <file leaf-file-name="EnumFacing.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="jar://$USER_HOME$/.gradle/caches/minecraft/net/minecraftforge/forge/1.8-11.14.0.1299/snapshot_nodoc/20141130/forgeSrc-1.8-11.14.0.1299-sources.jar!/net/minecraft/util/EnumFacing.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="170">
-              <caret line="2" column="29" selection-start-line="2" selection-start-column="29" selection-end-line="2" selection-end-column="29" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="7854">
+              <caret line="14" column="97" selection-start-line="14" selection-start-column="97" selection-end-line="14" selection-end-column="97" />
+              <folding>
+                <element signature="e#5217#5218#0" expanded="true" />
+                <element signature="e#5307#5308#0" expanded="true" />
+                <element signature="e#5347#5348#0" expanded="true" />
+                <element signature="e#5437#5438#0" expanded="true" />
+                <element signature="e#5473#5474#0" expanded="true" />
+                <element signature="e#5505#5506#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PotionRegistry.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/tildenprep/derpmod/PotionRegistry.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="476">
+              <caret line="23" column="7" selection-start-line="23" selection-start-column="7" selection-end-line="23" selection-end-column="7" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="GameRegistry.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="jar://$USER_HOME$/.gradle/caches/minecraft/net/minecraftforge/forge/1.8-11.14.0.1299/snapshot_nodoc/20141130/forgeSrc-1.8-11.14.0.1299-sources.jar!/net/minecraftforge/fml/common/registry/GameRegistry.java">
+      <file leaf-file-name="PotionTrollLogicImmortality.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/tildenprep/derpmod/client/food/PotionTrollLogicImmortality.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="2500" max-vertical-offset="6256">
-              <caret line="224" column="0" selection-start-line="224" selection-start-column="0" selection-end-line="224" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="221">
+              <caret line="5" column="40" selection-start-line="5" selection-start-column="40" selection-end-line="5" selection-end-column="40" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DerpOre.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/tildenprep/derpmod/block/DerpOre.java">
+      <file leaf-file-name="ItemDerpIngot.json" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/assets/derpmod/models/item/ItemDerpIngot.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="58" max-vertical-offset="425">
-              <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+            <state vertical-scroll-proportion="-2.04" vertical-offset="0" max-vertical-offset="391">
+              <caret line="3" column="46" selection-start-line="3" selection-start-column="46" selection-end-line="3" selection-end-column="46" />
               <folding />
             </state>
           </provider>
@@ -189,14 +409,14 @@
         <entry>
           <key>
             <ExternalProjectPojo>
-              <option name="name" value="DerpMod1.8" />
+              <option name="name" value="DerpMod" />
               <option name="path" value="$PROJECT_DIR$" />
             </ExternalProjectPojo>
           </key>
           <value>
             <list>
               <ExternalProjectPojo>
-                <option name="name" value="DerpMod1.8" />
+                <option name="name" value="DerpMod" />
                 <option name="path" value="$PROJECT_DIR$" />
               </ExternalProjectPojo>
             </list>
@@ -346,10 +566,6 @@
                 <option name="name" value="reobf" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="recompMinecraft" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
                 <option name="description" value="Compiles Java source 'main:java'." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="compileJava" />
@@ -358,6 +574,10 @@
                 <option name="description" value="Generates all Eclipse files." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="eclipse" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="recompMinecraft" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Assembles and tests this project." />
@@ -480,10 +700,6 @@
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="copyNativesLegacy" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="genSrgs" />
               </ExternalTaskPojo>
             </list>
@@ -494,7 +710,7 @@
     <option name="modificationStamps">
       <map>
         <entry key="$USER_HOME$/Desktop/Lib/Forge" value="1405138776000" />
-        <entry key="$PROJECT_DIR$" value="1422960258000" />
+        <entry key="$PROJECT_DIR$" value="1436292583800" />
         <entry key="$PROJECT_DIR$/../ForgeMax" value="1405107628000" />
       </map>
     </option>
@@ -599,7 +815,7 @@
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.lwjgl.lwjgl/lwjgl-platform/2.9.1/aa9aae879af8eb378e22cfc64db56ec2ca9a44d1/lwjgl-platform-2.9.1-natives-linux.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.lwjgl.lwjgl/lwjgl-platform/2.9.1/2d12c83fdfbc04ecabf02c7bc8cc54d034f0daac/lwjgl-platform-2.9.1-natives-osx.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.code.findbugs/jsr305/2.0.1/516c03b21d50a644d538de0f0369c620989cd8f0/jsr305-2.0.1.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.minecraftforge.gradle/ForgeGradle/1.2-SNAPSHOT/b6f5882022e1c90516c8799101bda8034a3b3cbd/ForgeGradle-1.2-SNAPSHOT.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.minecraftforge.gradle/ForgeGradle/1.2-SNAPSHOT/824a082566ff58c10ad2ec7fd927634da4f42bfc/ForgeGradle-1.2-SNAPSHOT.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/de.oceanlabs.mcp/RetroGuard/3.6.6/ffd69fcab06b928cf76144f08b7209ccf0656b6d/RetroGuard-3.6.6.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.sf.opencsv/opencsv/2.3/235993117036d44d126f76db9ea2202ee4884682/opencsv-2.3-sources.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.sf.opencsv/opencsv/2.3/c23708cdb9e80a144db433e23344a788a1fd6599/opencsv-2.3.jar" />
@@ -623,7 +839,7 @@
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.guava/guava/18.0/cce0823396aa693798f8882e64213b1772032b09/guava-18.0.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpmime/4.3.3/884b613cfc42948ad5d4cf507286ffe19592ebed/httpmime-4.3.3-sources.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpmime/4.3.3/e02368d7b56c0c376f227378a4f77de62864d020/httpmime-4.3.3.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/de.oceanlabs.mcp/mcinjector/3.2-SNAPSHOT/64e24ad69643ac2948003234e23286338a958315/mcinjector-3.2-SNAPSHOT.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/de.oceanlabs.mcp/mcinjector/3.2-SNAPSHOT/edce969ee85a6402825b1e5d23e67b645852e912/mcinjector-3.2-SNAPSHOT.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jvnet.localizer/localizer/1.12/261a0e844fe30de1c30372135275fa0b299bdee4/localizer-1.12-sources.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jvnet.localizer/localizer/1.12/6d456886a035b2c3f758059da1f91a823eaa4a62/localizer-1.12.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/commons-io/commons-io/1.4/48753e43ff29409fbbeadfb36186cbe27e41b179/commons-io-1.4-sources.jar" />
@@ -675,7 +891,7 @@
                   </entry>
                 </map>
               </option>
-              <option name="name" value="DerpMod1.8" />
+              <option name="name" value="DerpMod" />
               <option name="projectBuildClasspath">
                 <list>
                   <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.0-bin/5h57m9vra0mjv9qs45oqtsb5c0/gradle-2.0/lib/ant-1.9.3.jar" />
@@ -735,14 +951,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/tildenprep/derpmod/client/combat/Battlehoe.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/tildenprep/derpmod/block/RageBlock.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/tildenprep/derpmod/block/RageOre.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/tildenprep/derpmod/block/TrollBlock.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/tildenprep/derpmod/block/TrollOre.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/tildenprep/derpmod/client/combat/ItemDerpGrenade.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/tildenprep/derpmod/client/tool/ItemDerpAxe.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/tildenprep/derpmod/client/combat/ItemDerpSword.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/tildenprep/derpmod/client/combat/ItemSwordOfGoodbye.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/tildenprep/derpmod/client/combat/ItemTrollsDagger.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/tildenprep/derpmod/client/food/ItemAntibacon.java" />
@@ -750,20 +958,13 @@
         <option value="$PROJECT_DIR$/src/main/java/com/tildenprep/derpmod/client/food/ItemCheese.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/tildenprep/derpmod/client/food/ItemCheeseburger.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/tildenprep/derpmod/client/food/ItemTrolldenApple.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/tildenprep/derpmod/client/rawMaterials/ItemCompleteRageIngot.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/tildenprep/derpmod/client/rawMaterials/ItemDerpIngot.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/tildenprep/derpmod/client/rawMaterials/ItemTrollGem.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/tildenprep/derpmod/client/rawMaterials/ItemUnfinishedRageIngot.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/tildenprep/derpmod/client/tool/ItemDerpHoe.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/tildenprep/derpmod/client/tool/ItemDerpShovel.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/tildenprep/derpmod/client/tool/ItemPickOfDividingOresByAFraction.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/tildenprep/derpmod/client/tool/ItemTrollchemistsStone.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/tildenprep/derpmod/world/DerpWorld.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/tildenprep/derpmod/world/WorldGenDerp.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/tildenprep/derpmod/entity/EntityManager.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/tildenprep/derpmod/DerpItemCraftedEvent.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/assets/derpmod/blockstates/derpore.json" />
-        <option value="$PROJECT_DIR$/src/main/java/com/tildenprep/derpmod/client/combat/ItemExplosionScroll.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/tildenprep/derpmod/client/RickRollDisc.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/tildenprep/derpmod/client/tool/ItemDerpPickaxe.java" />
         <option value="$PROJECT_DIR$/src/main/resources/assets/derpmod/blockstates/repeaterbomb.json" />
@@ -781,19 +982,34 @@
         <option value="$PROJECT_DIR$/src/main/resources/assets/derpmod/blockstates/rageblock.json" />
         <option value="$PROJECT_DIR$/src/main/resources/assets/derpmod/blockstates/rageore.json" />
         <option value="$PROJECT_DIR$/src/main/resources/assets/derpmod/models/item/derpblock_model.json" />
-        <option value="$PROJECT_DIR$/src/main/resources/assets/derpmod/models/item/derpore_model.json" />
         <option value="$PROJECT_DIR$/src/main/java/com/tildenprep/derpmod/block/DerpBlock.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/tildenprep/derpmod/block/GenericBlock.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/tildenprep/derpmod/DerpMod.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/tildenprep/derpmod/BlockRegister.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/assets/derpmod/models/block/derpore_model.json" />
+        <option value="$PROJECT_DIR$/src/main/resources/assets/derpmod/models/item/derpore_model.json" />
+        <option value="$PROJECT_DIR$/src/main/resources/assets/derpmod/blockstates/derpore.json" />
+        <option value="$PROJECT_DIR$/src/main/resources/assets/derpmod/models/item/derpIngot.json" />
+        <option value="$PROJECT_DIR$/src/main/java/com/tildenprep/derpmod/client/GenericItem.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/tildenprep/derpmod/client/combat/ItemDerpGrenade.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/tildenprep/derpmod/client/combat/ItemExplosionScroll.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/tildenprep/derpmod/client/lore/ItemMultipleItemsWithLore.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/tildenprep/derpmod/client/rawMaterials/ItemCompleteRageIngot.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/tildenprep/derpmod/client/rawMaterials/ItemTrollGem.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/tildenprep/derpmod/client/rawMaterials/ItemUnfinishedRageIngot.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/tildenprep/derpmod/client/tool/ItemTrollchemistsStone.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/tildenprep/derpmod/client/rawMaterials/ItemDerpIngot.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/assets/derpmod/models/item/ItemDerpIngot.json" />
+        <option value="$PROJECT_DIR$/src/main/java/com/tildenprep/derpmod/DerpMod.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/tildenprep/derpmod/PotionRegistry.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/tildenprep/derpmod/block/ReversePiston.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
-    <option name="width" value="1382" />
-    <option name="height" value="744" />
+    <option name="width" value="1552" />
+    <option name="height" value="842" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -821,16 +1037,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="PackagesPane">
-        <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DerpMod1.8" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -859,7 +1065,7 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="forgeSrc-1.8-11.14.0.1299.jar" />
-              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
@@ -868,8 +1074,20 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="DerpMod1.8" />
-              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Gradle: forgeSrc-1.8-11.14.0.1299" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="forgeSrc-1.8-11.14.0.1299.jar" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="net" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
@@ -878,20 +1096,86 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Gradle: forgeSrc-1.8-11.14.0.1299" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="forgeSrc-1.8-11.14.0.1299.jar" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="net" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="minecraft" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
               <option name="myItemId" value="DerpMod1.8" />
-              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Gradle: forgeSrc-1.8-11.14.0.1299" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="forgeSrc-1.8-11.14.0.1299.jar" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="net" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="minecraft" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="block" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DerpMod1.8" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DerpMod" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DerpMod1.8" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DerpMod" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
@@ -900,24 +1184,24 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="DerpMod1.8" />
-              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+              <option name="myItemId" value="DerpMod" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="derpmod" />
-              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
@@ -926,32 +1210,32 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="DerpMod1.8" />
-              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+              <option name="myItemId" value="DerpMod" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="derpmod" />
-              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="models" />
-              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="item" />
-              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
@@ -960,32 +1244,32 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="DerpMod1.8" />
-              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+              <option name="myItemId" value="DerpMod" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="derpmod" />
-              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="models" />
-              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="block" />
-              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
@@ -994,28 +1278,28 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="DerpMod1.8" />
-              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+              <option name="myItemId" value="DerpMod" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="derpmod" />
-              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="blockstates" />
-              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
@@ -1024,24 +1308,24 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="DerpMod1.8" />
-              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+              <option name="myItemId" value="DerpMod" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="derpmod" />
-              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
@@ -1050,28 +1334,92 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="DerpMod1.8" />
-              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+              <option name="myItemId" value="DerpMod" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="derpmod" />
-              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="client" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DerpMod1.8" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DerpMod" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="derpmod" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="client" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="rawMaterials" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DerpMod1.8" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DerpMod" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="derpmod" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="block" />
-              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
@@ -1080,12 +1428,22 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="DerpMod1.8" />
-              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+              <option name="myItemId" value="DerpMod" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="PackagesPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DerpMod1.8" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
@@ -1099,7 +1457,7 @@
     <property name="MemberChooser.sorted" value="false" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="MemberChooser.copyJavadoc" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../VanillaMod" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="recentsLimit" value="5" />
     <property name="dynamic.classpath" value="false" />
     <property name="FullScreen" value="false" />
@@ -1107,6 +1465,9 @@
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -1119,12 +1480,6 @@
     </key>
   </component>
   <component name="RunManager" selected="Application.Minecraft Client">
-    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
-      <module name="" />
-      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
-      <option name="PROGRAM_PARAMETERS" />
-      <method />
-    </configuration>
     <configuration default="true" type="GroovyScriptRunConfiguration" factoryName="Groovy">
       <module name="" />
       <setting name="path" value="" />
@@ -1132,6 +1487,12 @@
       <setting name="params" value="" />
       <setting name="workDir" value="file://$PROJECT_DIR$" />
       <setting name="debug" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
       <method />
     </configuration>
     <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
@@ -1163,19 +1524,6 @@
       <option name="PORT" value="5005" />
       <method />
     </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <method />
-    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <module name="" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -1201,6 +1549,19 @@
       <envs />
       <properties />
       <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -1262,13 +1623,13 @@
       <option name="MAIN_CLASS_NAME" value="GradleStart" />
       <option name="VM_PARAMETERS" value="-Xincgc -Xmx1024M -Xms1024M" />
       <option name="PROGRAM_PARAMETERS" value="" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$/../DerpMod1.8\eclipse" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$/../DerpMod\eclipse" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" value="" />
       <option name="ENABLE_SWING_INSPECTOR" value="false" />
       <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="DerpMod1.8" />
+      <module name="DerpMod" />
       <envs />
       <RunnerSettings RunnerId="Run" />
       <ConfigurationWrapper RunnerId="Run" />
@@ -1279,13 +1640,13 @@
       <option name="MAIN_CLASS_NAME" value="GradleStartServer" />
       <option name="VM_PARAMETERS" value="-Xincgc -Dfml.ignoreInvalidMinecraftCertificates=true" />
       <option name="PROGRAM_PARAMETERS" value="" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$/../DerpMod1.8\eclipse" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$/../DerpMod\eclipse" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" value="" />
       <option name="ENABLE_SWING_INSPECTOR" value="false" />
       <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="DerpMod1.8" />
+      <module name="DerpMod" />
       <envs />
       <RunnerSettings RunnerId="Run" />
       <ConfigurationWrapper RunnerId="Run" />
@@ -1318,7 +1679,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="-8" y="-8" width="1552" height="842" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -1331,15 +1692,15 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39863715" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33730835" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.29195088" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25189108" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3270869" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22395833" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.31514326" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32879046" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1373,206 +1734,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$USER_HOME$/.gradle/caches/minecraft/net/minecraftforge/forge/1.8-11.14.0.1299/snapshot_nodoc/20141130/forgeSrc-1.8-11.14.0.1299-sources.jar!/net/minecraft/entity/monster/EntityZombie.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.46223566" vertical-offset="510" max-vertical-offset="10846">
-          <caret line="82" column="56" selection-start-line="82" selection-start-column="56" selection-end-line="82" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/minecraft/net/minecraftforge/forge/1.8-11.14.0.1299/snapshot_nodoc/20141130/forgeSrc-1.8-11.14.0.1299-sources.jar!/net/minecraft/entity/ai/EntityAINearestAttackableTarget.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="247" max-vertical-offset="2210">
-          <caret line="25" column="5" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/minecraft/net/minecraftforge/forge/1.8-11.14.0.1299/snapshot_nodoc/20141130/forgeSrc-1.8-11.14.0.1299-sources.jar!/net/minecraft/entity/Entity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="128" max-vertical-offset="38641">
-          <caret line="61" column="14" selection-start-line="61" selection-start-column="14" selection-end-line="61" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/minecraft/net/minecraftforge/forge/1.8-11.14.0.1299/snapshot_nodoc/20141130/forgeSrc-1.8-11.14.0.1299-sources.jar!/net/minecraft/world/World.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="6953" max-vertical-offset="64753">
-          <caret line="409" column="59" selection-start-line="409" selection-start-column="59" selection-end-line="409" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/minecraft/net/minecraftforge/forge/1.8-11.14.0.1299/snapshot_nodoc/20141130/forgeSrc-1.8-11.14.0.1299-sources.jar!/net/minecraft/entity/passive/EntityChicken.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2652">
-          <caret line="23" column="39" selection-start-line="23" selection-start-column="39" selection-end-line="23" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/minecraft/net/minecraftforge/forge/1.8-11.14.0.1299/snapshot_nodoc/20141130/forgeSrc-1.8-11.14.0.1299-sources.jar!/net/minecraft/entity/EntityLiving.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.20543806" vertical-offset="0" max-vertical-offset="17221">
-          <caret line="42" column="22" selection-start-line="42" selection-start-column="22" selection-end-line="42" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/minecraft/net/minecraftforge/forge/1.8-11.14.0.1299/snapshot_nodoc/20141130/forgeSrc-1.8-11.14.0.1299-sources.jar!/net/minecraft/entity/EntityAgeable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.20543806" vertical-offset="0" max-vertical-offset="3400">
-          <caret line="10" column="51" selection-start-line="10" selection-start-column="51" selection-end-line="10" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/minecraft/net/minecraftforge/forge/1.8-11.14.0.1299/snapshot_nodoc/20141130/forgeSrc-1.8-11.14.0.1299-sources.jar!/net/minecraft/entity/passive/EntityAnimal.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.20543806" vertical-offset="0" max-vertical-offset="2992">
-          <caret line="17" column="49" selection-start-line="17" selection-start-column="49" selection-end-line="17" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/minecraft/net/minecraftforge/forge/1.8-11.14.0.1299/snapshot_nodoc/20141130/forgeSrc-1.8-11.14.0.1299-sources.jar!/net/minecraft/entity/passive/EntityOcelot.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.33333334" vertical-offset="347" max-vertical-offset="5304">
-          <caret line="26" column="46" selection-start-line="26" selection-start-column="44" selection-end-line="26" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/minecraft/net/minecraftforge/forge/1.8-11.14.0.1299/snapshot_nodoc/20141130/forgeSrc-1.8-11.14.0.1299-sources.jar!/net/minecraft/item/ItemEgg.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.10429448" vertical-offset="34" max-vertical-offset="629">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/minecraft/net/minecraftforge/forge/1.8-11.14.0.1299/snapshot_nodoc/20141130/forgeSrc-1.8-11.14.0.1299-sources.jar!/net/minecraft/item/ItemSign.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1190">
-          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/minecraft/net/minecraftforge/forge/1.8-11.14.0.1299/snapshot_nodoc/20141130/forgeSrc-1.8-11.14.0.1299-sources.jar!/net/minecraft/item/ItemSimpleFoiled.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.20858896" vertical-offset="0" max-vertical-offset="326">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/minecraft/net/minecraftforge/forge/1.8-11.14.0.1299/snapshot_nodoc/20141130/forgeSrc-1.8-11.14.0.1299-sources.jar!/assets/minecraft/models/item/spawn_egg.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.071429" vertical-offset="28" max-vertical-offset="425">
-          <caret line="10" column="28" selection-start-line="10" selection-start-column="28" selection-end-line="10" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/minecraft/net/minecraftforge/forge/1.8-11.14.0.1299/snapshot_nodoc/20141130/forgeSrc-1.8-11.14.0.1299.jar!/assets/minecraft/models/item/spawn_egg.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.303681" vertical-offset="99" max-vertical-offset="425">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/minecraft/net/minecraftforge/forge/1.8-11.14.0.1299/snapshot_nodoc/20141130/forgeSrc-1.8-11.14.0.1299-sources.jar!/net/minecraft/entity/EntityCreature.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.33116883" vertical-offset="1190" max-vertical-offset="2159">
-          <caret line="104" column="64" selection-start-line="104" selection-start-column="62" selection-end-line="104" selection-end-column="64" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/minecraft/net/minecraftforge/forge/1.8-11.14.0.1299/snapshot_nodoc/20141130/forgeSrc-1.8-11.14.0.1299-sources.jar!/net/minecraft/client/renderer/entity/RenderBiped.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="68" max-vertical-offset="629">
-          <caret line="20" column="4" selection-start-line="20" selection-start-column="4" selection-end-line="24" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/tildenprep/derpmod/render/RenderRageGuy.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.77936965" vertical-offset="0" max-vertical-offset="442">
-          <caret line="25" column="84" selection-start-line="25" selection-start-column="84" selection-end-line="25" selection-end-column="84" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.405959" vertical-offset="755" max-vertical-offset="1292">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gradlew.bat">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.2652671" vertical-offset="663" max-vertical-offset="1632">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/minecraft/net/minecraftforge/forge/1.8-11.14.0.1299/snapshot_nodoc/20141130/forgeSrc-1.8-11.14.0.1299-sources.jar!/net/minecraft/item/ItemMonsterPlacer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="2695" max-vertical-offset="3366">
-          <caret line="144" column="47" selection-start-line="144" selection-start-column="47" selection-end-line="144" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/tildenprep/derpmod/entity/EntityRageGuy.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="1245" max-vertical-offset="1632">
-          <caret line="100" column="113" selection-start-line="100" selection-start-column="113" selection-end-line="100" selection-end-column="113" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/minecraft/net/minecraftforge/forge/1.8-11.14.0.1299/snapshot_nodoc/20141130/forgeSrc-1.8-11.14.0.1299-sources.jar!/net/minecraft/item/ItemStack.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="3553" max-vertical-offset="16388">
-          <caret line="209" column="69" selection-start-line="209" selection-start-column="63" selection-end-line="209" selection-end-column="69" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/minecraft/net/minecraftforge/forge/1.8-11.14.0.1299/snapshot_nodoc/20141130/forgeSrc-1.8-11.14.0.1299-sources.jar!/net/minecraft/entity/ai/EntityAIOcelotAttack.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="94" max-vertical-offset="1343">
-          <caret line="14" column="11" selection-start-line="14" selection-start-column="11" selection-end-line="14" selection-end-column="11" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/tildenprep/derpmod/render/RenderLolcat.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="425">
-          <caret line="14" column="53" selection-start-line="14" selection-start-column="53" selection-end-line="14" selection-end-column="53" />
-          <folding>
-            <element signature="e#502#503#0" expanded="false" />
-            <element signature="e#548#549#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/tildenprep/derpmod/entity/EntityLolcat.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="527">
-          <caret line="26" column="0" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/tildenprep/derpmod/client/ClientProxy.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5779037" vertical-offset="0" max-vertical-offset="510">
-          <caret line="28" column="214" selection-start-line="28" selection-start-column="214" selection-end-line="28" selection-end-column="214" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/minecraft/net/minecraftforge/forge/1.8-11.14.0.1299/snapshot_nodoc/20141130/forgeSrc-1.8-11.14.0.1299-sources.jar!/net/minecraft/client/renderer/entity/RenderSnowball.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.0464481" vertical-offset="178" max-vertical-offset="714">
-          <caret line="42" column="41" selection-start-line="42" selection-start-column="41" selection-end-line="42" selection-end-column="41" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/tildenprep/derpmod/block/RageBlock.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="374">
@@ -1584,7 +1745,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="408">
           <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1599,7 +1759,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="408">
           <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1607,7 +1766,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="476">
           <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1615,7 +1773,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="187">
           <caret line="5" column="1" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1623,7 +1780,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.15088758" vertical-offset="0" max-vertical-offset="338">
           <caret line="3" column="51" selection-start-line="3" selection-start-column="47" selection-end-line="3" selection-end-column="54" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1631,7 +1787,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="338">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="1" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1639,7 +1794,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.10059172" vertical-offset="0" max-vertical-offset="338">
           <caret line="2" column="37" selection-start-line="2" selection-start-column="37" selection-end-line="2" selection-end-column="37" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1647,7 +1801,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.09418283" vertical-offset="0" max-vertical-offset="361">
           <caret line="2" column="36" selection-start-line="2" selection-start-column="36" selection-end-line="2" selection-end-column="36" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1655,7 +1808,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.09418283" vertical-offset="0" max-vertical-offset="361">
           <caret line="2" column="27" selection-start-line="2" selection-start-column="27" selection-end-line="2" selection-end-column="27" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1663,7 +1815,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.09418283" vertical-offset="0" max-vertical-offset="361">
           <caret line="2" column="26" selection-start-line="2" selection-start-column="26" selection-end-line="2" selection-end-column="26" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1671,7 +1822,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="338">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1679,7 +1829,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.09418283" vertical-offset="0" max-vertical-offset="361">
           <caret line="2" column="29" selection-start-line="2" selection-start-column="29" selection-end-line="2" selection-end-column="29" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1694,7 +1843,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="255">
           <caret line="9" column="1" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1702,23 +1850,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="425">
           <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/assets/derpmod/models/item/derpore_model.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="255">
-          <caret line="1" column="36" selection-start-line="1" selection-start-column="36" selection-end-line="1" selection-end-column="36" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/assets/derpmod/blockstates/derpore.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="170">
-          <caret line="2" column="29" selection-start-line="2" selection-start-column="29" selection-end-line="2" selection-end-column="29" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1726,44 +1857,357 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="8" max-vertical-offset="408">
           <caret line="18" column="62" selection-start-line="18" selection-start-column="62" selection-end-line="18" selection-end-column="62" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/tildenprep/derpmod/block/DerpBlock.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="98" max-vertical-offset="459">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="459">
           <caret line="31" column="0" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/minecraft/net/minecraftforge/forge/1.8-11.14.0.1299/snapshot_nodoc/20141130/forgeSrc-1.8-11.14.0.1299-sources.jar!/net/minecraftforge/fml/common/registry/GameRegistry.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="2500" max-vertical-offset="6256">
-          <caret line="224" column="0" selection-start-line="224" selection-start-column="0" selection-end-line="224" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/tildenprep/derpmod/BlockRegister.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="68" max-vertical-offset="493">
-          <caret line="12" column="31" selection-start-line="12" selection-start-column="31" selection-end-line="12" selection-end-column="31" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="323">
+          <caret line="8" column="38" selection-start-line="8" selection-start-column="38" selection-end-line="8" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/assets/derpmod/models/block/derpore_model.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.4" vertical-offset="0" max-vertical-offset="187">
+          <caret line="5" column="1" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/assets/derpmod/models/item/derpore_model.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.68" vertical-offset="0" max-vertical-offset="255">
+          <caret line="1" column="22" selection-start-line="1" selection-start-column="22" selection-end-line="1" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/assets/derpmod/blockstates/derpore.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-2.04" vertical-offset="0" max-vertical-offset="170">
+          <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/tildenprep/derpmod/client/combat/ItemBattlehoe.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1207">
+          <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/tildenprep/derpmod/client/combat/ItemDerpSword.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.268018" vertical-offset="0" max-vertical-offset="444">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/tildenprep/derpmod/client/combat/ItemDerpGrenade.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="578">
+          <caret line="16" column="39" selection-start-line="16" selection-start-column="39" selection-end-line="16" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/tildenprep/derpmod/client/combat/ItemExplosionScroll.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.14561027" vertical-offset="0" max-vertical-offset="527">
+          <caret line="12" column="50" selection-start-line="12" selection-start-column="50" selection-end-line="12" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/tildenprep/derpmod/client/combat/ItemDerpArmor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.14561027" vertical-offset="0" max-vertical-offset="510">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/tildenprep/derpmod/client/food/ItemAntibacon.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.254818" vertical-offset="0" max-vertical-offset="476">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/tildenprep/derpmod/client/lore/ItemSwordLore.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.254818" vertical-offset="0" max-vertical-offset="544">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/tildenprep/derpmod/client/lore/ItemMultipleItemsWithLore.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.29122055" vertical-offset="0" max-vertical-offset="561">
+          <caret line="14" column="58" selection-start-line="14" selection-start-column="58" selection-end-line="14" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/tildenprep/derpmod/client/rawMaterials/ItemCompleteRageIngot.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="357">
+          <caret line="7" column="54" selection-start-line="7" selection-start-column="54" selection-end-line="7" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/tildenprep/derpmod/client/rawMaterials/ItemTrollGem.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="323">
+          <caret line="7" column="46" selection-start-line="7" selection-start-column="46" selection-end-line="7" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/tildenprep/derpmod/client/rawMaterials/ItemUnfinishedRageIngot.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.14561027" vertical-offset="0" max-vertical-offset="765">
+          <caret line="10" column="56" selection-start-line="10" selection-start-column="56" selection-end-line="10" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/tildenprep/derpmod/client/tool/ItemTrollchemistsStone.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.254818" vertical-offset="0" max-vertical-offset="612">
+          <caret line="13" column="55" selection-start-line="13" selection-start-column="55" selection-end-line="13" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/tildenprep/derpmod/client/GenericItem.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="357">
+          <caret line="15" column="41" selection-start-line="15" selection-start-column="41" selection-end-line="15" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/tildenprep/derpmod/client/rawMaterials/ItemDerpIngot.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="374">
+          <caret line="17" column="54" selection-start-line="17" selection-start-column="54" selection-end-line="17" selection-end-column="54" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/minecraft/net/minecraftforge/forge/1.8-11.14.0.1299/snapshot_nodoc/20141130/forgeSrc-1.8-11.14.0.1299-sources.jar!/net/minecraft/potion/PotionAbsorption.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="510">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/minecraft/net/minecraftforge/forge/1.8-11.14.0.1299/snapshot_nodoc/20141130/forgeSrc-1.8-11.14.0.1299-sources.jar!/net/minecraft/potion/PotionAttackDamage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.15077606" vertical-offset="0" max-vertical-offset="451">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/minecraft/net/minecraftforge/forge/1.8-11.14.0.1299/snapshot_nodoc/20141130/forgeSrc-1.8-11.14.0.1299-sources.jar!/net/minecraft/potion/PotionHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.3584474" vertical-offset="663" max-vertical-offset="9962">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/tildenprep/derpmod/DerpMod.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1105" max-vertical-offset="5644">
+          <caret line="53" column="45" selection-start-line="53" selection-start-column="45" selection-end-line="53" selection-end-column="45" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/minecraft/net/minecraftforge/forge/1.8-11.14.0.1299/snapshot_nodoc/20141130/forgeSrc-1.8-11.14.0.1299-sources.jar!/net/minecraft/block/BlockLilyPad.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.10164425" vertical-offset="0" max-vertical-offset="1020">
+          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.guava/guava/17.0/7ca0efbeb87ca845b5d7a0ac9c21a4b7b95f7b28/guava-17.0-sources.jar!/com/google/common/base/Predicates.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3328446" vertical-offset="3989" max-vertical-offset="9027">
+          <caret line="313" column="21" selection-start-line="33" selection-start-column="0" selection-end-line="651" selection-end-column="1" />
+          <folding>
+            <element signature="e#11419#11420#0" expanded="false" />
+            <element signature="e#11459#11460#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/minecraft/net/minecraftforge/forge/1.8-11.14.0.1299/snapshot_nodoc/20141130/forgeSrc-1.8-11.14.0.1299-sources.jar!/net/minecraft/util/EnumFacing.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="7854">
+          <caret line="14" column="97" selection-start-line="14" selection-start-column="97" selection-end-line="14" selection-end-column="97" />
+          <folding>
+            <element signature="e#5217#5218#0" expanded="true" />
+            <element signature="e#5307#5308#0" expanded="true" />
+            <element signature="e#5347#5348#0" expanded="true" />
+            <element signature="e#5437#5438#0" expanded="true" />
+            <element signature="e#5473#5474#0" expanded="true" />
+            <element signature="e#5505#5506#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/minecraft/net/minecraftforge/forge/1.8-11.14.0.1299/snapshot_nodoc/20141130/forgeSrc-1.8-11.14.0.1299-sources.jar!/net/minecraft/block/properties/PropertyEnum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="986">
+          <caret line="64" column="26" selection-start-line="64" selection-start-column="26" selection-end-line="64" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/tildenprep/derpmod/PotionRegistry.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="476">
+          <caret line="23" column="7" selection-start-line="23" selection-start-column="7" selection-end-line="23" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/assets/derpmod/models/item/ItemDerpIngot.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-2.04" vertical-offset="0" max-vertical-offset="391">
+          <caret line="3" column="46" selection-start-line="3" selection-start-column="46" selection-end-line="3" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/tildenprep/derpmod/client/food/PotionTrollLogicImmortality.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="221">
+          <caret line="5" column="40" selection-start-line="5" selection-start-column="40" selection-end-line="5" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/minecraft/net/minecraftforge/forge/1.8-11.14.0.1299/snapshot_nodoc/20141130/forgeSrc-1.8-11.14.0.1299-sources.jar!/net/minecraft/block/properties/PropertyDirection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="459">
+          <caret line="25" column="46" selection-start-line="25" selection-start-column="46" selection-end-line="25" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/minecraft/net/minecraftforge/forge/1.8-11.14.0.1299/snapshot_nodoc/20141130/forgeSrc-1.8-11.14.0.1299-sources.jar!/net/minecraft/block/BlockPistonBase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-5.071429" vertical-offset="5808" max-vertical-offset="8976">
+          <caret line="359" column="3" selection-start-line="359" selection-start-column="3" selection-end-line="359" selection-end-column="96" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/tildenprep/derpmod/DerpMod.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/tildenprep/derpmod/block/ReversePiston.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.15407854" vertical-offset="102" max-vertical-offset="4692">
-          <caret line="46" column="35" selection-start-line="46" selection-start-column="35" selection-end-line="46" selection-end-column="35" />
-          <folding />
+        <state vertical-scroll-proportion="0.33186814" vertical-offset="274" max-vertical-offset="2006">
+          <caret line="25" column="20" selection-start-line="25" selection-start-column="20" selection-end-line="25" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>DerpMod1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.7</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Gradle: akka-actor_2.11-2.3.3</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
   </component>
 </project>
 

@@ -1,6 +1,7 @@
 package com.tildenprep.derpmod.client.combat;
 
 import com.tildenprep.derpmod.DerpMod;
+import com.tildenprep.derpmod.client.GenericItem;
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.item.Item;
@@ -9,7 +10,7 @@ import net.minecraft.world.World;
 
 import com.tildenprep.derpmod.entity.EntityDerpGrenade;
 
-public class ItemDerpGrenade extends Item {
+public class ItemDerpGrenade extends GenericItem {
 	
 	 public ItemDerpGrenade(){
 	        super();

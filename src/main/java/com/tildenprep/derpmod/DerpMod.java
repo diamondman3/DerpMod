@@ -1,5 +1,8 @@
 package com.tildenprep.derpmod;
 
+import java.lang.ref.Reference;
+import java.util.*;
+
 import com.tildenprep.derpmod.block.*;
 import com.tildenprep.derpmod.client.*;
 import com.tildenprep.derpmod.client.combat.*;
@@ -15,6 +18,9 @@ import com.tildenprep.derpmod.entity.EntityRageGuy;
 import net.minecraft.block.Block;
 import net.minecraft.block.material.MapColor;
 import net.minecraft.block.material.Material;
+import net.minecraft.client.Minecraft;
+import net.minecraft.client.renderer.entity.RenderItem;
+import net.minecraft.client.resources.model.ModelResourceLocation;
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.entity.EnumCreatureType;
 import net.minecraft.init.Blocks;
@@ -45,6 +51,7 @@ public class DerpMod
     //TODO: LOOK UP CONFIG/ATTRIBUTE FILES FOR TEXTURES!!!
     //TODO: Rage ItemBattlehoe
     //TODO: Update texture settings
+    //todo: Potion of Troll Logic Immortality
 {
 	public static final String MODID = "DerpMod";
 	public static final String VERSION = "0.0.4";
@@ -109,7 +116,13 @@ public class DerpMod
 	{
 		EntityManager.mainRegistry();
         BlockRegister registry = new BlockRegister();
-        registry.registerBlocks();
+        registry.registerBlocks(derpOre);
+        registry.registerBlocks(derpBlock);
+        registry.registerBlocks(trollOre);
+        registry.registerBlocks(trollBlock);
+        registry.registerBlocks(rageOre);
+        registry.registerBlocks(rageBlock);
+        registry.registerBlocks(repeaterBomb);
 
         itemBurger = new ItemBurger();
         itemCheese = new ItemCheese();
@@ -126,7 +139,6 @@ public class DerpMod
         derpIngot = new ItemDerpIngot();
 		ItemStack dIS = new ItemStack(derpIngot, 1);
 		GameRegistry.addSmelting(derpOre, dIS, 1F);
-		GameRegistry.registerItem(derpIngot, derpIngot.getUnlocalizedName());
 		Item.ToolMaterial derpM = new EnumHelper().addToolMaterial("Derp", 5, 251, 100F, 2F, 30);
 		final ArmorMaterial derpArmorMat = new EnumHelper().addArmorMaterial("derp", "textures/models/armor/derpArmorLayer1", 259, new int[]{2, 6, 5, 2}, 15);
 
@@ -206,6 +218,8 @@ public class DerpMod
         GameRegistry.addShapedRecipe(new ItemStack(Items.cooked_porkchop, 8), "aaa", "asa", "aaa", 's', new ItemStack(trollchemistsStone, 1, OreDictionary.WILDCARD_VALUE), 'a', new ItemStack(DerpMod.itemAntibacon));
         //Potion is 3 min. waterbreathing
         GameRegistry.addShapelessRecipe(new ItemStack(Items.potionitem, 1, 8205), new ItemStack(Blocks.grass, 1), new ItemStack(Blocks.grass, 1), new ItemStack(Blocks.grass, 1), new ItemStack(Items.glass_bottle, 1), new ItemStack(DerpMod.trollchemistsStone, 1, OreDictionary.WILDCARD_VALUE));
+        GameRegistry.addShapelessRecipe(new ItemStack(Items.diamond, 1), new ItemStack(Blocks.coal_block), new ItemStack(Items.lava_bucket), new ItemStack(trollchemistsStone, OreDictionary.WILDCARD_VALUE));
+
 
 		trollsDagger = new ItemTrollsDagger(trollM);
 		GameRegistry.registerItem(trollsDagger, trollsDagger.getUnlocalizedName());
@@ -296,6 +310,11 @@ public class DerpMod
 	@Mod.EventHandler
 	public void init(FMLInitializationEvent event)
     {
+        if(event.getSide() == Side.CLIENT) {
+            RenderItem renderItem = Minecraft.getMinecraft().getRenderItem();
+            renderItem.getItemModelMesher().register(derpIngot, 0, new ModelResourceLocation(DerpMod.MODID + ":" + ((ItemDerpIngot) derpIngot).getName(), "inventory"));
+        }
+
         EntityRegistry.registerGlobalEntityID(EntityRageGuy.class, "rageGuy", EntityRegistry.findGlobalUniqueEntityId(), 16777215, 256);
     /*    EntityRegistry.addSpawn(EntityRageGuy.class, 20, 1, 4, EnumCreatureType.MONSTER, BiomeGenBase.swampland);
         EntityRegistry.addSpawn(EntityRageGuy.class, 20, 1, 4, EnumCreatureType.MONSTER, BiomeGenBase.mushroomIsland);
