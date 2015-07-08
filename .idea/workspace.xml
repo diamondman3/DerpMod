@@ -2,239 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c9751d07-bcee-4fdd-8a66-4a9eebf9c19a" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/assets/derpmod/models/item/ItemDerpIngot.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/tildenprep/derpmod/PotionRegistry.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/tildenprep/derpmod/client/food/PotionTrollLogicImmortality.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/tildenprep/derpmod/block/ReversePiston.java" />
-      <change type="DELETED" beforePath="C:\Users\student\IdeaProjects\DerpMod\.idea\.name" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\student\IdeaProjects\DerpMod\.idea\compiler.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\student\IdeaProjects\DerpMod\.idea\copyright\profiles_settings.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\student\IdeaProjects\DerpMod\.idea\encodings.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\student\IdeaProjects\DerpMod\.idea\gradle.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\student\IdeaProjects\DerpMod\.idea\libraries\Gradle__akka_actor_2_11_2_3_3.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\student\IdeaProjects\DerpMod\.idea\libraries\Gradle__asm_debug_all_5_0_3.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\student\IdeaProjects\DerpMod\.idea\libraries\Gradle__authlib_1_5_17.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\student\IdeaProjects\DerpMod\.idea\libraries\Gradle__codecjorbis_20101023.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\student\IdeaProjects\DerpMod\.idea\libraries\Gradle__codecwav_20101023.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\student\IdeaProjects\DerpMod\.idea\libraries\Gradle__commons_codec_1_9.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\student\IdeaProjects\DerpMod\.idea\libraries\Gradle__commons_compress_1_8_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\student\IdeaProjects\DerpMod\.idea\libraries\Gradle__commons_io_2_4.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\student\IdeaProjects\DerpMod\.idea\libraries\Gradle__commons_lang3_3_3_2.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\student\IdeaProjects\DerpMod\.idea\libraries\Gradle__commons_logging_1_1_3.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\student\IdeaProjects\DerpMod\.idea\libraries\Gradle__config_1_2_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\student\IdeaProjects\DerpMod\.idea\libraries\Gradle__forgeSrc_1_8_11_14_0_1299.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\student\IdeaProjects\DerpMod\.idea\libraries\Gradle__gson_2_2_4.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\student\IdeaProjects\DerpMod\.idea\libraries\Gradle__guava_17_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\student\IdeaProjects\DerpMod\.idea\libraries\Gradle__httpclient_4_3_3.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\student\IdeaProjects\DerpMod\.idea\libraries\Gradle__httpcore_4_3_2.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\student\IdeaProjects\DerpMod\.idea\libraries\Gradle__icu4j_core_mojang_51_2.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\student\IdeaProjects\DerpMod\.idea\libraries\Gradle__jinput_2_0_5.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\student\IdeaProjects\DerpMod\.idea\libraries\Gradle__jinput_platform_2_0_5_natives_linux.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\student\IdeaProjects\DerpMod\.idea\libraries\Gradle__jinput_platform_2_0_5_natives_osx.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\student\IdeaProjects\DerpMod\.idea\libraries\Gradle__jinput_platform_2_0_5_natives_windows.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\student\IdeaProjects\DerpMod\.idea\libraries\Gradle__jopt_simple_4_6.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\student\IdeaProjects\DerpMod\.idea\libraries\Gradle__jsr305_2_0_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\student\IdeaProjects\DerpMod\.idea\libraries\Gradle__jutils_1_0_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\student\IdeaProjects\DerpMod\.idea\libraries\Gradle__launchwrapper_1_11.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\student\IdeaProjects\DerpMod\.idea\libraries\Gradle__libraryjavasound_20101123.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\student\IdeaProjects\DerpMod\.idea\libraries\Gradle__librarylwjglopenal_20100824.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\student\IdeaProjects\DerpMod\.idea\libraries\Gradle__log4j_api_2_0_beta9.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\student\IdeaProjects\DerpMod\.idea\libraries\Gradle__log4j_core_2_0_beta9.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\student\IdeaProjects\DerpMod\.idea\libraries\Gradle__lwjgl_2_9_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\student\IdeaProjects\DerpMod\.idea\libraries\Gradle__lwjgl_platform_2_9_1_natives_linux.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\student\IdeaProjects\DerpMod\.idea\libraries\Gradle__lwjgl_platform_2_9_1_natives_osx.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\student\IdeaProjects\DerpMod\.idea\libraries\Gradle__lwjgl_platform_2_9_1_natives_windows.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\student\IdeaProjects\DerpMod\.idea\libraries\Gradle__lwjgl_util_2_9_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\student\IdeaProjects\DerpMod\.idea\libraries\Gradle__lzma_0_0_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\student\IdeaProjects\DerpMod\.idea\libraries\Gradle__netty_all_4_0_15_Final.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\student\IdeaProjects\DerpMod\.idea\libraries\Gradle__realms_1_6_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\student\IdeaProjects\DerpMod\.idea\libraries\Gradle__scala_actors_2_11_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\student\IdeaProjects\DerpMod\.idea\libraries\Gradle__scala_actors_migration_2_11_1_1_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\student\IdeaProjects\DerpMod\.idea\libraries\Gradle__scala_compiler_2_11_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\student\IdeaProjects\DerpMod\.idea\libraries\Gradle__scala_continuations_library_2_11_1_0_2.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\student\IdeaProjects\DerpMod\.idea\libraries\Gradle__scala_continuations_plugin_2_11_1_1_0_2.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\student\IdeaProjects\DerpMod\.idea\libraries\Gradle__scala_library_2_11_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\student\IdeaProjects\DerpMod\.idea\libraries\Gradle__scala_parser_combinators_2_11_1_0_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\student\IdeaProjects\DerpMod\.idea\libraries\Gradle__scala_reflect_2_11_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\student\IdeaProjects\DerpMod\.idea\libraries\Gradle__scala_swing_2_11_1_0_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\student\IdeaProjects\DerpMod\.idea\libraries\Gradle__scala_xml_2_11_1_0_2.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\student\IdeaProjects\DerpMod\.idea\libraries\Gradle__soundsystem_20120107.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\student\IdeaProjects\DerpMod\.idea\libraries\Gradle__trove4j_3_0_3.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\student\IdeaProjects\DerpMod\.idea\libraries\Gradle__twitch_6_5.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\student\IdeaProjects\DerpMod\.idea\libraries\Gradle__twitch_external_platform_4_5_natives_windows_32.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\student\IdeaProjects\DerpMod\.idea\libraries\Gradle__twitch_external_platform_4_5_natives_windows_64.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\student\IdeaProjects\DerpMod\.idea\libraries\Gradle__twitch_platform_6_5_natives_osx.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\student\IdeaProjects\DerpMod\.idea\libraries\Gradle__twitch_platform_6_5_natives_windows_32.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\student\IdeaProjects\DerpMod\.idea\libraries\Gradle__twitch_platform_6_5_natives_windows_64.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\student\IdeaProjects\DerpMod\.idea\libraries\Gradle__vecmath_1_5_2.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\student\IdeaProjects\DerpMod\.idea\misc.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\student\IdeaProjects\DerpMod\.idea\modules.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\student\IdeaProjects\DerpMod\.idea\scopes\scope_settings.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\student\IdeaProjects\DerpMod\.idea\uiDesigner.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\student\IdeaProjects\DerpMod\.idea\vcs.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\student\IdeaProjects\DerpMod\.idea\workspace.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\student\IdeaProjects\DerpMod\CREDITS-fml.txt" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\student\IdeaProjects\DerpMod\LICENSE-fml.txt" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\student\IdeaProjects\DerpMod\MinecraftForge-Credits.txt" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\student\IdeaProjects\DerpMod\MinecraftForge-License.txt" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\student\IdeaProjects\DerpMod\README.txt" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\student\IdeaProjects\DerpMod\eclipse\.metadata\.plugins\org.eclipse.core.resources\.projects\Minecraft\.location" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\student\IdeaProjects\DerpMod\eclipse\.metadata\.plugins\org.eclipse.core.resources\.root\0.tree" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\student\IdeaProjects\DerpMod\eclipse\.metadata\.plugins\org.eclipse.core.runtime\.settings\org.eclipse.core.resources.prefs" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\student\IdeaProjects\DerpMod\eclipse\.metadata\.plugins\org.eclipse.core.runtime\.settings\org.eclipse.debug.ui.prefs" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\student\IdeaProjects\DerpMod\eclipse\.metadata\.plugins\org.eclipse.core.runtime\.settings\org.eclipse.epp.usagedata.gathering.prefs" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\student\IdeaProjects\DerpMod\eclipse\.metadata\.plugins\org.eclipse.core.runtime\.settings\org.eclipse.jdt.core.prefs" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\student\IdeaProjects\DerpMod\eclipse\.metadata\.plugins\org.eclipse.core.runtime\.settings\org.eclipse.ui.editors.prefs" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\student\IdeaProjects\DerpMod\eclipse\.metadata\.plugins\org.eclipse.core.runtime\.settings\org.eclipse.ui.ide.prefs" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\student\IdeaProjects\DerpMod\eclipse\.metadata\.plugins\org.eclipse.core.runtime\.settings\org.eclipse.ui.prefs" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\student\IdeaProjects\DerpMod\eclipse\.metadata\.plugins\org.eclipse.debug.core\.launches\Client.launch" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\student\IdeaProjects\DerpMod\eclipse\.metadata\.plugins\org.eclipse.debug.core\.launches\Server.launch" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\student\IdeaProjects\DerpMod\eclipse\.metadata\.plugins\org.eclipse.debug.ui\launchConfigurationHistory.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\student\IdeaProjects\DerpMod\eclipse\config\forge.cfg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\student\IdeaProjects\DerpMod\eclipse\config\forgeChunkLoading.cfg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\student\IdeaProjects\DerpMod\eclipse\logs\fml-client-latest.log" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\student\IdeaProjects\DerpMod\eclipse\logs\fml-junk-earlystartup.log" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\student\IdeaProjects\DerpMod\eclipse\logs\latest.log" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\student\IdeaProjects\DerpMod\forge-1.8-11.14.0.1299-changelog.txt" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\student\IdeaProjects\DerpMod\gradle\wrapper\gradle-wrapper.jar" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\student\IdeaProjects\DerpMod\gradle\wrapper\gradle-wrapper.properties" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\student\IdeaProjects\DerpMod\gradlew" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\student\IdeaProjects\DerpMod\gradlew.bat" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\student\IdeaProjects\DerpMod\src\.idea\.name" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\student\IdeaProjects\DerpMod\src\.idea\compiler.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\student\IdeaProjects\DerpMod\src\.idea\copyright\profiles_settings.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\student\IdeaProjects\DerpMod\src\.idea\encodings.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\student\IdeaProjects\DerpMod\src\.idea\misc.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\student\IdeaProjects\DerpMod\src\.idea\modules.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\student\IdeaProjects\DerpMod\src\.idea\scopes\scope_settings.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\student\IdeaProjects\DerpMod\src\.idea\src.iml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\student\IdeaProjects\DerpMod\src\.idea\vcs.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\student\IdeaProjects\DerpMod\src\.idea\workspace.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\student\IdeaProjects\DerpMod\src\main\java\com\tildenprep\derpmod\BlockRegister.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\student\IdeaProjects\DerpMod\src\main\java\com\tildenprep\derpmod\CommonProxy.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\student\IdeaProjects\DerpMod\src\main\java\com\tildenprep\derpmod\DerpItemCraftedEvent.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\student\IdeaProjects\DerpMod\src\main\java\com\tildenprep\derpmod\DerpMod.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\student\IdeaProjects\DerpMod\src\main\java\com\tildenprep\derpmod\block\DerpBlock.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\student\IdeaProjects\DerpMod\src\main\java\com\tildenprep\derpmod\block\DerpOre.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\student\IdeaProjects\DerpMod\src\main\java\com\tildenprep\derpmod\block\GenericBlock.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\student\IdeaProjects\DerpMod\src\main\java\com\tildenprep\derpmod\block\RageBlock.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\student\IdeaProjects\DerpMod\src\main\java\com\tildenprep\derpmod\block\RageOre.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\student\IdeaProjects\DerpMod\src\main\java\com\tildenprep\derpmod\block\RepeaterBomb.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\student\IdeaProjects\DerpMod\src\main\java\com\tildenprep\derpmod\block\TrollBlock.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\student\IdeaProjects\DerpMod\src\main\java\com\tildenprep\derpmod\block\TrollOre.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\student\IdeaProjects\DerpMod\src\main\java\com\tildenprep\derpmod\client\ClientProxy.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\student\IdeaProjects\DerpMod\src\main\java\com\tildenprep\derpmod\client\GenericItem.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\student\IdeaProjects\DerpMod\src\main\java\com\tildenprep\derpmod\client\RickRollDisc.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\student\IdeaProjects\DerpMod\src\main\java\com\tildenprep\derpmod\client\combat\ItemBattlehoe.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\student\IdeaProjects\DerpMod\src\main\java\com\tildenprep\derpmod\client\combat\ItemDerpArmor.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\student\IdeaProjects\DerpMod\src\main\java\com\tildenprep\derpmod\client\combat\ItemDerpGrenade.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\student\IdeaProjects\DerpMod\src\main\java\com\tildenprep\derpmod\client\combat\ItemDerpSword.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\student\IdeaProjects\DerpMod\src\main\java\com\tildenprep\derpmod\client\combat\ItemExplosionScroll.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\student\IdeaProjects\DerpMod\src\main\java\com\tildenprep\derpmod\client\combat\ItemRageBattlehoe.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\student\IdeaProjects\DerpMod\src\main\java\com\tildenprep\derpmod\client\combat\ItemSwordOfGoodbye.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\student\IdeaProjects\DerpMod\src\main\java\com\tildenprep\derpmod\client\combat\ItemTrollsDagger.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\student\IdeaProjects\DerpMod\src\main\java\com\tildenprep\derpmod\client\food\ItemAntibacon.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\student\IdeaProjects\DerpMod\src\main\java\com\tildenprep\derpmod\client\food\ItemBurger.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\student\IdeaProjects\DerpMod\src\main\java\com\tildenprep\derpmod\client\food\ItemCheese.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\student\IdeaProjects\DerpMod\src\main\java\com\tildenprep\derpmod\client\food\ItemCheeseburger.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\student\IdeaProjects\DerpMod\src\main\java\com\tildenprep\derpmod\client\food\ItemTrolldenApple.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\student\IdeaProjects\DerpMod\src\main\java\com\tildenprep\derpmod\client\lore\ItemMultipleItemsWithLore.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\student\IdeaProjects\DerpMod\src\main\java\com\tildenprep\derpmod\client\lore\ItemSwordLore.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\student\IdeaProjects\DerpMod\src\main\java\com\tildenprep\derpmod\client\rawMaterials\ItemCompleteRageIngot.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\student\IdeaProjects\DerpMod\src\main\java\com\tildenprep\derpmod\client\rawMaterials\ItemDerpIngot.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\student\IdeaProjects\DerpMod\src\main\java\com\tildenprep\derpmod\client\rawMaterials\ItemTrollGem.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\student\IdeaProjects\DerpMod\src\main\java\com\tildenprep\derpmod\client\rawMaterials\ItemUnfinishedRageIngot.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\student\IdeaProjects\DerpMod\src\main\java\com\tildenprep\derpmod\client\tool\ItemDerpAxe.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\student\IdeaProjects\DerpMod\src\main\java\com\tildenprep\derpmod\client\tool\ItemDerpHoe.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\student\IdeaProjects\DerpMod\src\main\java\com\tildenprep\derpmod\client\tool\ItemDerpPickaxe.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\student\IdeaProjects\DerpMod\src\main\java\com\tildenprep\derpmod\client\tool\ItemDerpShovel.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\student\IdeaProjects\DerpMod\src\main\java\com\tildenprep\derpmod\client\tool\ItemPickOfDividingOresByAFraction.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\student\IdeaProjects\DerpMod\src\main\java\com\tildenprep\derpmod\client\tool\ItemTrollchemistsStone.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\student\IdeaProjects\DerpMod\src\main\java\com\tildenprep\derpmod\entity\EntityDerpGrenade.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\student\IdeaProjects\DerpMod\src\main\java\com\tildenprep\derpmod\entity\EntityLolcat.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\student\IdeaProjects\DerpMod\src\main\java\com\tildenprep\derpmod\entity\EntityManager.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\student\IdeaProjects\DerpMod\src\main\java\com\tildenprep\derpmod\entity\EntityRageGuy.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\student\IdeaProjects\DerpMod\src\main\java\com\tildenprep\derpmod\entity\ScrollSpellEntity.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\student\IdeaProjects\DerpMod\src\main\java\com\tildenprep\derpmod\model\RageGuyModel.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\student\IdeaProjects\DerpMod\src\main\java\com\tildenprep\derpmod\model\rageGuy.tcn" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\student\IdeaProjects\DerpMod\src\main\java\com\tildenprep\derpmod\render\RenderLolcat.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\student\IdeaProjects\DerpMod\src\main\java\com\tildenprep\derpmod\render\RenderRageGuy.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\student\IdeaProjects\DerpMod\src\main\java\com\tildenprep\derpmod\world\DerpWorld.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\student\IdeaProjects\DerpMod\src\main\java\com\tildenprep\derpmod\world\NondamagingExplosion.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\student\IdeaProjects\DerpMod\src\main\java\com\tildenprep\derpmod\world\WorldGenDerp.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\student\IdeaProjects\DerpMod\src\main\resources\assets\derpmod\blockstates\derpblock.json" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\student\IdeaProjects\DerpMod\src\main\resources\assets\derpmod\blockstates\derpore.json" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\student\IdeaProjects\DerpMod\src\main\resources\assets\derpmod\blockstates\rageblock.json" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\student\IdeaProjects\DerpMod\src\main\resources\assets\derpmod\blockstates\rageore.json" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\student\IdeaProjects\DerpMod\src\main\resources\assets\derpmod\blockstates\repeaterbomb.json" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\student\IdeaProjects\DerpMod\src\main\resources\assets\derpmod\blockstates\trollblock.json" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\student\IdeaProjects\DerpMod\src\main\resources\assets\derpmod\blockstates\trollore.json" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\student\IdeaProjects\DerpMod\src\main\resources\assets\derpmod\lang\en_CA.lang" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\student\IdeaProjects\DerpMod\src\main\resources\assets\derpmod\lang\en_GB.lang" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\student\IdeaProjects\DerpMod\src\main\resources\assets\derpmod\lang\en_PT.lang" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\student\IdeaProjects\DerpMod\src\main\resources\assets\derpmod\lang\en_US.lang" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\student\IdeaProjects\DerpMod\src\main\resources\assets\derpmod\models\block\derpblock_model.json" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\student\IdeaProjects\DerpMod\src\main\resources\assets\derpmod\models\block\derpore_model.json" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\student\IdeaProjects\DerpMod\src\main\resources\assets\derpmod\models\block\rageblock_model.json" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\student\IdeaProjects\DerpMod\src\main\resources\assets\derpmod\models\block\rageore_model.json" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\student\IdeaProjects\DerpMod\src\main\resources\assets\derpmod\models\block\trollblock_model.json" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\student\IdeaProjects\DerpMod\src\main\resources\assets\derpmod\models\block\trollore_model.json" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\student\IdeaProjects\DerpMod\src\main\resources\assets\derpmod\models\item\derpblock_model.json" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\student\IdeaProjects\DerpMod\src\main\resources\assets\derpmod\models\item\derpore_model.json" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\student\IdeaProjects\DerpMod\src\main\resources\assets\derpmod\sound\Thumbs.db" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\student\IdeaProjects\DerpMod\src\main\resources\assets\derpmod\textures\blocks\Thumbs.db" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\student\IdeaProjects\DerpMod\src\main\resources\assets\derpmod\textures\blocks\TrollOre.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\student\IdeaProjects\DerpMod\src\main\resources\assets\derpmod\textures\blocks\derpBlock.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\student\IdeaProjects\DerpMod\src\main\resources\assets\derpmod\textures\blocks\derpOre.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\student\IdeaProjects\DerpMod\src\main\resources\assets\derpmod\textures\blocks\rageBlock.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\student\IdeaProjects\DerpMod\src\main\resources\assets\derpmod\textures\blocks\rageOre.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\student\IdeaProjects\DerpMod\src\main\resources\assets\derpmod\textures\blocks\repeaterBomb.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\student\IdeaProjects\DerpMod\src\main\resources\assets\derpmod\textures\blocks\trollBlock.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\student\IdeaProjects\DerpMod\src\main\resources\assets\derpmod\textures\entity\Thumbs.db" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\student\IdeaProjects\DerpMod\src\main\resources\assets\derpmod\textures\entity\lolcat.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\student\IdeaProjects\DerpMod\src\main\resources\assets\derpmod\textures\entity\rageGuy.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\student\IdeaProjects\DerpMod\src\main\resources\assets\derpmod\textures\entity\rageGuy1point7.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\student\IdeaProjects\DerpMod\src\main\resources\assets\derpmod\textures\items\Thumbs.db" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\student\IdeaProjects\DerpMod\src\main\resources\assets\derpmod\textures\items\antibacon.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\student\IdeaProjects\DerpMod\src\main\resources\assets\derpmod\textures\items\burger.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\student\IdeaProjects\DerpMod\src\main\resources\assets\derpmod\textures\items\cheese.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\student\IdeaProjects\DerpMod\src\main\resources\assets\derpmod\textures\items\cheeseburger.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\student\IdeaProjects\DerpMod\src\main\resources\assets\derpmod\textures\items\derpAxe.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\student\IdeaProjects\DerpMod\src\main\resources\assets\derpmod\textures\items\derpBoots.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\student\IdeaProjects\DerpMod\src\main\resources\assets\derpmod\textures\items\derpGrenade.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\student\IdeaProjects\DerpMod\src\main\resources\assets\derpmod\textures\items\derpHelmet.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\student\IdeaProjects\DerpMod\src\main\resources\assets\derpmod\textures\items\derpHoe.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\student\IdeaProjects\DerpMod\src\main\resources\assets\derpmod\textures\items\derpIngot.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\student\IdeaProjects\DerpMod\src\main\resources\assets\derpmod\textures\items\derpPants.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\student\IdeaProjects\DerpMod\src\main\resources\assets\derpmod\textures\items\derpPickaxe.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\student\IdeaProjects\DerpMod\src\main\resources\assets\derpmod\textures\items\derpShirt.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\student\IdeaProjects\DerpMod\src\main\resources\assets\derpmod\textures\items\derpShovel.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\student\IdeaProjects\DerpMod\src\main\resources\assets\derpmod\textures\items\derpSword.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\student\IdeaProjects\DerpMod\src\main\resources\assets\derpmod\textures\items\explosionScroll.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\student\IdeaProjects\DerpMod\src\main\resources\assets\derpmod\textures\items\oreFracDivPick.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\student\IdeaProjects\DerpMod\src\main\resources\assets\derpmod\textures\items\rageHoe.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\student\IdeaProjects\DerpMod\src\main\resources\assets\derpmod\textures\items\rageIngot1.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\student\IdeaProjects\DerpMod\src\main\resources\assets\derpmod\textures\items\rageIngot2.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\student\IdeaProjects\DerpMod\src\main\resources\assets\derpmod\textures\items\rageIngot3.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\student\IdeaProjects\DerpMod\src\main\resources\assets\derpmod\textures\items\rageIngot4.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\student\IdeaProjects\DerpMod\src\main\resources\assets\derpmod\textures\items\rageIngot5.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\student\IdeaProjects\DerpMod\src\main\resources\assets\derpmod\textures\items\rageIngot6.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\student\IdeaProjects\DerpMod\src\main\resources\assets\derpmod\textures\items\rageIngot7.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\student\IdeaProjects\DerpMod\src\main\resources\assets\derpmod\textures\items\rageIngot8.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\student\IdeaProjects\DerpMod\src\main\resources\assets\derpmod\textures\items\repeaterBomb.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\student\IdeaProjects\DerpMod\src\main\resources\assets\derpmod\textures\items\rickRollDisc.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\student\IdeaProjects\DerpMod\src\main\resources\assets\derpmod\textures\items\swordOfGoodbye.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\student\IdeaProjects\DerpMod\src\main\resources\assets\derpmod\textures\items\trollGem.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\student\IdeaProjects\DerpMod\src\main\resources\assets\derpmod\textures\items\trollchemistsStone.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\student\IdeaProjects\DerpMod\src\main\resources\assets\derpmod\textures\items\trolldenApple.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\student\IdeaProjects\DerpMod\src\main\resources\assets\derpmod\textures\items\trollsDagger.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\student\IdeaProjects\DerpMod\src\main\resources\assets\derpmod\textures\misc\Thumbs.db" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\student\IdeaProjects\DerpMod\src\main\resources\assets\derpmod\textures\misc\mudkip.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\student\IdeaProjects\DerpMod\src\main\resources\assets\derpmod\textures\models\armor\derpArmorLayer1.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\student\IdeaProjects\DerpMod\src\main\resources\assets\derpmod\textures\models\armor\derpArmorLayer2.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\student\IdeaProjects\DerpMod\src\main\resources\mcmod.info" afterPath="" />
-      <change type="MOVED" beforePath="C:\Users\student\IdeaProjects\DerpMod\.idea\libraries\Gradle__C__Users_diamondman3__gradle_caches_minecraft_net_minecraftforge_forge_1_8_11_14_0_1299_start.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__C__Users_student__gradle_caches_minecraft_net_minecraftforge_forge_1_8_11_14_0_1299_start.xml" />
-      <change type="MOVED" beforePath="C:\Users\student\IdeaProjects\DerpMod\DerpMod1.8.iml" afterPath="$PROJECT_DIR$/DerpMod.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="DerpMod1.8.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -1675,7 +1443,11 @@
       <created>1436223758170</created>
       <updated>1436223758170</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Started on Reverse Piston.">
+      <created>1436397884293</created>
+      <updated>1436397884293</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1724,7 +1496,8 @@
       <TodoPanelSettings />
     </option>
     <MESSAGE value="Model jsons put in model folder, added block jsons. Still no textures for anything." />
-    <option name="LAST_COMMIT_MESSAGE" value="Model jsons put in model folder, added block jsons. Still no textures for anything." />
+    <MESSAGE value="Started on Reverse Piston." />
+    <option name="LAST_COMMIT_MESSAGE" value="Started on Reverse Piston." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
