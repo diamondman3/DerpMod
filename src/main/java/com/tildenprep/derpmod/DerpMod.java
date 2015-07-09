@@ -72,6 +72,9 @@ public class DerpMod
 	public final static Block repeaterBomb = new RepeaterBomb();
 	public final static Block rageOre = new RageOre(Material.rock);
 	public final static Block rageBlock= new RageBlock(Material.rock);
+    public final static Block reversePiston = new ReversePiston(false);
+    public final static Block reverseStickyPiston = new ReversePiston(true);
+
 
 	public static Item derpIngot;
 	public static Item derpSword;
@@ -123,6 +126,8 @@ public class DerpMod
         registry.registerBlocks(rageOre);
         registry.registerBlocks(rageBlock);
         registry.registerBlocks(repeaterBomb);
+        registry.registerBlocks(reversePiston);
+        registry.registerBlocks(reverseStickyPiston);
 
         itemBurger = new ItemBurger();
         itemCheese = new ItemCheese();
