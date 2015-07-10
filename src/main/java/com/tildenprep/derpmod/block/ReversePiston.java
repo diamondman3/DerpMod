@@ -29,7 +29,7 @@ public class ReversePiston extends BlockPistonBase{
     //todo: Arm deleted when block placed adjacent to arm, presumably due to invalid location.
 
     boolean isSticky = false;
-    boolean isAlreadyReversed = false;
+    boolean isReversed = false;
     public ReversePiston(boolean isSticky){
         super(isSticky);
         setCreativeTab(DerpMod.tabDerpMod);
@@ -109,22 +109,22 @@ public class ReversePiston extends BlockPistonBase{
                 switch (ReversePiston.SwitchEnumFacing.FACING_LOOKUP[enumfacing.ordinal()])
                 {
                     case 1:
-                        this.setBlockBounds(0.0F, 1.0F, 0.0F, 1.0F, 0.75F, 1.0F);
-                        break;
-                    case 2:
                         this.setBlockBounds(0.0F, 0.25F, 0.0F, 1.0F, 0.1F, 1.0F);
                         break;
-                    case 3:
-                        this.setBlockBounds(0.0F, 0.0F, 0.0F, 1.0F, 1.0F, 0.75F);
+                    case 2:
+                        this.setBlockBounds(0.0F, 1.0F, 0.0F, 1.0F, 0.75F, 1.0F);
                         break;
-                    case 4:
+                    case 3:
                         this.setBlockBounds(0.0F, 0.0F, 0.25F, 1.0F, 1.0F, 1.0F);
                         break;
+                    case 4:
+                        this.setBlockBounds(0.0F, 0.0F, 0.0F, 1.0F, 1.0F, 0.75F);
+                        break;
                     case 5:
-                        this.setBlockBounds(0.0F, 0.0F, 0.0F, 0.75F, 1.0F, 1.0F);
+                        this.setBlockBounds(0.25F, 0.0F, 0.0F, 1.0F, 1.0F, 1.0F);
                         break;
                     case 6:
-                        this.setBlockBounds(0.25F, 0.0F, 0.0F, 1.0F, 1.0F, 1.0F);
+                        this.setBlockBounds(0.0F, 0.0F, 0.0F, 0.75F, 1.0F, 1.0F);
                 }
             }
         }
@@ -256,13 +256,14 @@ public class ReversePiston extends BlockPistonBase{
 
     //Modified from BlockPistonBase
     private boolean doMove(World worldIn, BlockPos pos, EnumFacing direction, boolean extending) {
+        if(!isReversed)
+        {
+            direction = direction.getOpposite();
+            isReversed = true;
+        }
         if (!extending)
         {
             worldIn.setBlockToAir(pos.offset(direction));
-        }
-        if(!isAlreadyReversed) {
-            direction = direction.getOpposite();
-            isAlreadyReversed = true;
         }
         BlockPistonStructureHelper blockpistonstructurehelper = new BlockPistonStructureHelper(worldIn, pos, direction, extending);
         List list = blockpistonstructurehelper.getBlocksToMove();
@@ -336,9 +337,9 @@ public class ReversePiston extends BlockPistonBase{
                 worldIn.notifyNeighborsOfStateChange(blockpos2, Blocks.piston_head);
                 worldIn.notifyNeighborsOfStateChange(pos, this);
             }
-            if(isAlreadyReversed){
+            if(isReversed){
                 direction = direction.getOpposite();
-                isAlreadyReversed = false;
+                isReversed = false;
             }
 
             return true;

@@ -23,7 +23,6 @@ public class RepeaterBomb extends BlockRedstoneRepeater {
 
     boolean exploded;
     //Todo: Bomb explodes when powered from any side.
-    //todo: bomb not exploding when caught in explosion
 
     public RepeaterBomb ()
     {
@@ -51,7 +50,7 @@ public class RepeaterBomb extends BlockRedstoneRepeater {
 
     @Override
     public void onBlockDestroyedByExplosion(World worldIn, BlockPos pos, Explosion explosionIn) {
-        worldIn.createExplosion(null, (this.getBlockBoundsMaxX()+this.getBlockBoundsMinX()/2), (this.getBlockBoundsMaxY()+this.getBlockBoundsMinY()/2), (this.getBlockBoundsMaxZ()+this.getBlockBoundsMinZ()/2), 6F, true);
+        worldIn.createExplosion(null, pos.getX(), pos.getY(), pos.getZ(), 6F, true);
         worldIn.setBlockState(new BlockPos((int)Math.floor(this.getBlockBoundsMinX()), (int)Math.floor(this.getBlockBoundsMinY()), (int)Math.floor(this.getBlockBoundsMinZ())), Blocks.air.getDefaultState());
     }
 

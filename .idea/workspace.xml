@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c9751d07-bcee-4fdd-8a66-4a9eebf9c19a" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/tildenprep/derpmod/DerpMod.java" afterPath="$PROJECT_DIR$/src/main/java/com/tildenprep/derpmod/DerpMod.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/tildenprep/derpmod/block/RepeaterBomb.java" afterPath="$PROJECT_DIR$/src/main/java/com/tildenprep/derpmod/block/RepeaterBomb.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/tildenprep/derpmod/block/ReversePiston.java" afterPath="$PROJECT_DIR$/src/main/java/com/tildenprep/derpmod/block/ReversePiston.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eclipse/logs/fml-client-latest.log" afterPath="$PROJECT_DIR$/eclipse/logs/fml-client-latest.log" />
@@ -71,21 +70,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="ReversePiston.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="ReversePiston.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/tildenprep/derpmod/block/ReversePiston.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="153" max-vertical-offset="8143">
-              <caret line="28" column="94" selection-start-line="28" selection-start-column="94" selection-end-line="28" selection-end-column="94" />
-              <folding />
+            <state vertical-scroll-proportion="0.5844544" vertical-offset="2601" max-vertical-offset="8466">
+              <caret line="185" column="77" selection-start-line="185" selection-start-column="77" selection-end-line="185" selection-end-column="77" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="RepeaterBomb.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="RepeaterBomb.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/tildenprep/derpmod/block/RepeaterBomb.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.42694065" vertical-offset="0" max-vertical-offset="1343">
-              <caret line="25" column="55" selection-start-line="25" selection-start-column="55" selection-end-line="25" selection-end-column="55" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="986" max-vertical-offset="1615">
+              <caret line="58" column="50" selection-start-line="58" selection-start-column="50" selection-end-line="58" selection-end-column="50" />
               <folding />
             </state>
           </provider>
@@ -94,7 +95,7 @@
       <file leaf-file-name="BlockTNT.java" pinned="false" current="false" current-in-tab="false">
         <entry file="jar://$USER_HOME$/.gradle/caches/minecraft/net/minecraftforge/forge/1.8-11.14.0.1299/snapshot_nodoc/20141130/forgeSrc-1.8-11.14.0.1299-sources.jar!/net/minecraft/block/BlockTNT.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="408" max-vertical-offset="2057">
+            <state vertical-scroll-proportion="0.0" vertical-offset="340" max-vertical-offset="2482">
               <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
               <folding />
             </state>
@@ -104,7 +105,7 @@
       <file leaf-file-name="BlockRedstoneDiode.java" pinned="false" current="false" current-in-tab="false">
         <entry file="jar://$USER_HOME$/.gradle/caches/minecraft/net/minecraftforge/forge/1.8-11.14.0.1299/snapshot_nodoc/20141130/forgeSrc-1.8-11.14.0.1299-sources.jar!/net/minecraft/block/BlockRedstoneDiode.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="1122" max-vertical-offset="4080">
+            <state vertical-scroll-proportion="0.0" vertical-offset="1275" max-vertical-offset="4794">
               <caret line="75" column="28" selection-start-line="75" selection-start-column="28" selection-end-line="75" selection-end-column="28" />
               <folding />
             </state>
@@ -124,7 +125,7 @@
       <file leaf-file-name="BlockPistonBase.java" pinned="false" current="false" current-in-tab="false">
         <entry file="jar://$USER_HOME$/.gradle/caches/minecraft/net/minecraftforge/forge/1.8-11.14.0.1299/snapshot_nodoc/20141130/forgeSrc-1.8-11.14.0.1299-sources.jar!/net/minecraft/block/BlockPistonBase.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-12.142858" vertical-offset="2244" max-vertical-offset="8602">
+            <state vertical-scroll-proportion="0.0" vertical-offset="3009" max-vertical-offset="9180">
               <caret line="177" column="182" selection-start-line="177" selection-start-column="174" selection-end-line="177" selection-end-column="182" />
               <folding />
             </state>
@@ -810,7 +811,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane">
         <subPane>
           <PATH>
@@ -1221,6 +1221,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -1456,7 +1457,11 @@
       <created>1436399565415</created>
       <updated>1436399565415</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Worked on reverse piston, got to go in same direction each time, but bug where arm is deleted when a block is placed adjacent to it still exists. Also made the repeater bomb explode when powered, but explodes when powered from any side, not just the intended input and does not explode when caught in an explosion.">
+      <created>1436485461559</created>
+      <updated>1436485461559</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1473,7 +1478,6 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39863715" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.29195088" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1481,10 +1485,11 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22395833" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.31514326" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.31514326" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32879046" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.29195088" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39863715" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
     </layout>
@@ -1507,7 +1512,8 @@
     <MESSAGE value="Model jsons put in model folder, added block jsons. Still no textures for anything." />
     <MESSAGE value="Started on Reverse Piston." />
     <MESSAGE value="Started on Reverse Piston. R.P class is erring for no reason whatsoever." />
-    <option name="LAST_COMMIT_MESSAGE" value="Started on Reverse Piston. R.P class is erring for no reason whatsoever." />
+    <MESSAGE value="Worked on reverse piston, got to go in same direction each time, but bug where arm is deleted when a block is placed adjacent to it still exists. Also made the repeater bomb explode when powered, but explodes when powered from any side, not just the intended input and does not explode when caught in an explosion." />
+    <option name="LAST_COMMIT_MESSAGE" value="Worked on reverse piston, got to go in same direction each time, but bug where arm is deleted when a block is placed adjacent to it still exists. Also made the repeater bomb explode when powered, but explodes when powered from any side, not just the intended input and does not explode when caught in an explosion." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1605,13 +1611,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="8" max-vertical-offset="408">
           <caret line="18" column="62" selection-start-line="18" selection-start-column="62" selection-end-line="18" selection-end-column="62" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/tildenprep/derpmod/block/DerpBlock.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="459">
-          <caret line="31" column="0" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -1766,7 +1765,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.10164425" vertical-offset="0" max-vertical-offset="1020">
           <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1814,14 +1812,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/minecraft/net/minecraftforge/forge/1.8-11.14.0.1299/snapshot_nodoc/20141130/forgeSrc-1.8-11.14.0.1299-sources.jar!/net/minecraft/block/properties/PropertyDirection.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="459">
-          <caret line="25" column="46" selection-start-line="25" selection-start-column="46" selection-end-line="25" selection-end-column="46" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/tildenprep/derpmod/client/food/ItemCheeseburger.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.1929078" vertical-offset="0" max-vertical-offset="705">
@@ -1841,13 +1831,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-2.4285715" vertical-offset="0" max-vertical-offset="1921">
           <caret line="20" column="59" selection-start-line="20" selection-start-column="59" selection-end-line="20" selection-end-column="59" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="jar://$USER_HOME$/.gradle/caches/minecraft/net/minecraftforge/forge/1.8-11.14.0.1299/snapshot_nodoc/20141130/forgeSrc-1.8-11.14.0.1299-sources.jar!/net/minecraft/block/BlockPistonBase.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-12.142858" vertical-offset="2244" max-vertical-offset="8602">
+        <state vertical-scroll-proportion="0.0" vertical-offset="3009" max-vertical-offset="9180">
           <caret line="177" column="182" selection-start-line="177" selection-start-column="174" selection-end-line="177" selection-end-column="182" />
           <folding />
         </state>
@@ -1861,14 +1850,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/tildenprep/derpmod/block/ReversePiston.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="153" max-vertical-offset="8143">
-          <caret line="28" column="94" selection-start-line="28" selection-start-column="94" selection-end-line="28" selection-end-column="94" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/.gradle/caches/minecraft/net/minecraftforge/forge/1.8-11.14.0.1299/snapshot_nodoc/20141130/forgeSrc-1.8-11.14.0.1299-sources.jar!/net/minecraft/block/BlockTNT.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="408" max-vertical-offset="2057">
@@ -1877,11 +1858,36 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/tildenprep/derpmod/block/DerpBlock.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.7361419" vertical-offset="8" max-vertical-offset="459">
+          <caret line="31" column="0" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/minecraft/net/minecraftforge/forge/1.8-11.14.0.1299/snapshot_nodoc/20141130/forgeSrc-1.8-11.14.0.1299-sources.jar!/net/minecraft/block/properties/PropertyDirection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="459">
+          <caret line="25" column="46" selection-start-line="25" selection-start-column="46" selection-end-line="25" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/tildenprep/derpmod/block/RepeaterBomb.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.42694065" vertical-offset="0" max-vertical-offset="1343">
-          <caret line="25" column="55" selection-start-line="25" selection-start-column="55" selection-end-line="25" selection-end-column="55" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="561" max-vertical-offset="1326">
+          <caret line="58" column="50" selection-start-line="58" selection-start-column="50" selection-end-line="58" selection-end-column="50" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/tildenprep/derpmod/block/ReversePiston.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5844544" vertical-offset="2601" max-vertical-offset="8466">
+          <caret line="185" column="77" selection-start-line="185" selection-start-column="77" selection-end-line="185" selection-end-column="77" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
