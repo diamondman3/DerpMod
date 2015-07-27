@@ -1,5 +1,5 @@
 item.derpPickaxe.name=Derp Pickaxe
-tile.derpOre.name=Derp Ore
+tile.derpmod:derpOre.name=Derp Ore
 tile.derpBlock.name=Derp Block
 item.derpIngot.name=Derp Ingot
 item.derpShovel.name=Derp Shovel
@@ -35,7 +35,7 @@ item.cheese.name=Cheese
 item.burger.name=Burger
 item.cheeseburger.name=Cheeseburger
 entity.lolcat.name=Lolcat
-itemGroup.derpMod=Derp Mod
+itemGroup=Derp Mod
 item.trollchemistsStone.name=Trollchemist's Stone
 item.trolldenApple.name=Golden Apple
 item.rageHoe.name=Rage Battlehoe

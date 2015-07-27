@@ -2,12 +2,12 @@ package com.tildenprep.derpmod.world;
 
 import java.util.Random;
 
+import com.tildenprep.derpmod.DerpModRegistrar;
 import net.minecraft.util.BlockPos;
 import net.minecraft.world.World;
 import net.minecraft.world.chunk.IChunkProvider;
 import net.minecraft.world.gen.feature.WorldGenMinable;
 
-import com.tildenprep.derpmod.DerpMod;
 import net.minecraftforge.fml.common.IWorldGenerator;
 
 
@@ -30,7 +30,7 @@ public class WorldGenDerp implements IWorldGenerator {
 			int randPosZ = chunkZ + rand.nextInt(16);
             BlockPos randPos = new BlockPos(randPosX, randPosY, randPosZ);
 			
-			(new WorldGenMinable(DerpMod.derpOre.getDefaultState() ,10)).generate(world, rand, randPos);
+			(new WorldGenMinable(DerpModRegistrar.derpOre.getDefaultState() ,10)).generate(world, rand, randPos);
 			
 		}
 	//Troll Ore gen	
@@ -40,7 +40,7 @@ public class WorldGenDerp implements IWorldGenerator {
 			int randPosZ = chunkZ + rand.nextInt(16);
             BlockPos randPos = new BlockPos(randPosX, randPosY, randPosZ);
 
-			(new WorldGenMinable(DerpMod.trollOre.getDefaultState() ,10)).generate(world, rand, randPos);
+			(new WorldGenMinable(DerpModRegistrar.trollOre.getDefaultState() ,10)).generate(world, rand, randPos);
 		}
 	//Rage Ore gen
 		for(int i = 0; i < 16; i++){ 
@@ -49,7 +49,7 @@ public class WorldGenDerp implements IWorldGenerator {
 			int randPosZ = chunkZ + rand.nextInt(16);
             BlockPos randPos = new BlockPos(randPosX, randPosY, randPosZ);
 			
-			(new WorldGenMinable(DerpMod.rageOre.getDefaultState(), 10)).generate(world, rand, randPos);
+			(new WorldGenMinable(DerpModRegistrar.rageOre.getDefaultState(), 10)).generate(world, rand, randPos);
 		}
 	}
 }

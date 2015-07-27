@@ -1,6 +1,6 @@
 {
     "parent": "block/cube_all",
     "textures": {
-        "all": "derpMod/assets/textures/blocks/rageBlock"
+        "all": "derpMod:blocks/rageBlock"
     }
 }

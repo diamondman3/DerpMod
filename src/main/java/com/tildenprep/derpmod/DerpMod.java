@@ -1,6 +1,5 @@
 package com.tildenprep.derpmod;
 
-import com.tildenprep.derpmod.block.*;
 import com.tildenprep.derpmod.client.*;
 import com.tildenprep.derpmod.client.combat.*;
 import com.tildenprep.derpmod.client.food.*;
@@ -12,17 +11,15 @@ import com.tildenprep.derpmod.client.tool.*;
 import com.tildenprep.derpmod.client.tool.ItemPickOfDividingOresByAFraction;
 import com.tildenprep.derpmod.entity.EntityLolcat;
 import com.tildenprep.derpmod.entity.EntityRageGuy;
-import net.minecraft.block.Block;
-import net.minecraft.block.material.MapColor;
-import net.minecraft.block.material.Material;
+import net.minecraft.client.Minecraft;
+import net.minecraft.client.renderer.entity.RenderItem;
+import net.minecraft.client.resources.model.ModelResourceLocation;
 import net.minecraft.creativetab.CreativeTabs;
-import net.minecraft.entity.EnumCreatureType;
 import net.minecraft.init.Blocks;
 import net.minecraft.init.Items;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemArmor.ArmorMaterial;
 import net.minecraft.item.ItemStack;
-import net.minecraft.world.biome.BiomeGenBase;
 import net.minecraftforge.common.util.EnumHelper;
 
 import com.tildenprep.derpmod.entity.EntityDerpGrenade;
@@ -39,14 +36,16 @@ import net.minecraftforge.fml.relauncher.Side;
 import net.minecraftforge.fml.relauncher.SideOnly;
 import net.minecraftforge.oredict.OreDictionary;
 
+import java.lang.ref.Reference;
+
+//TODO: LOOK UP CONFIG/ATTRIBUTE FILES FOR TEXTURES!!!
+//TODO: Rage ItemBattlehoe
+//TODO: Update texture settings
+
 @Mod(modid = DerpMod.MODID, version = DerpMod.VERSION)
 public class DerpMod
-
-    //TODO: LOOK UP CONFIG/ATTRIBUTE FILES FOR TEXTURES!!!
-    //TODO: Rage ItemBattlehoe
-    //TODO: Update texture settings
 {
-	public static final String MODID = "DerpMod";
+	public static final String MODID = "derpmod";
 	public static final String VERSION = "0.0.4";
 
     public final static CreativeTabs tabDerpMod = new CreativeTabs("derpMod") {
@@ -58,13 +57,7 @@ public class DerpMod
         }
     };
 
-	public final static Block derpOre = new DerpOre(Material.gourd);
-	public final static Block derpBlock = new DerpBlock(Material.gourd);
-	public final static Block trollOre = new TrollOre(new Material(MapColor.ironColor));
-	public final static Block trollBlock = new TrollBlock(new Material(MapColor.ironColor));
-	public final static Block repeaterBomb = new RepeaterBomb();
-	public final static Block rageOre = new RageOre(Material.rock);
-	public final static Block rageBlock= new RageBlock(Material.rock);
+
 
 	public static Item derpIngot;
 	public static Item derpSword;
@@ -98,7 +91,7 @@ public class DerpMod
     public static ItemCheeseburger itemCheeseburger;
     public static ItemTrolldenApple itemTrolldenApple;
 
-	@Mod.Instance(value = "DerpMod")
+	@Mod.Instance(value = "derpmod")
 	public static DerpMod instance;
 
 	@SidedProxy(clientSide ="com.tildenprep.derpmod.client.ClientProxy", serverSide = "com.tildenprep.derpmod.CommonProxy")
@@ -108,7 +101,7 @@ public class DerpMod
 	public void preInit(FMLPreInitializationEvent event)
 	{
 		EntityManager.mainRegistry();
-        BlockRegister registry = new BlockRegister();
+        DerpModRegistrar registry = new DerpModRegistrar();
         registry.registerBlocks();
 
         itemBurger = new ItemBurger();
@@ -125,13 +118,12 @@ public class DerpMod
 
         derpIngot = new ItemDerpIngot();
 		ItemStack dIS = new ItemStack(derpIngot, 1);
-		GameRegistry.addSmelting(derpOre, dIS, 1F);
-		GameRegistry.registerItem(derpIngot, derpIngot.getUnlocalizedName());
+		GameRegistry.addSmelting(DerpModRegistrar.derpOre, dIS, 1F);
 		Item.ToolMaterial derpM = new EnumHelper().addToolMaterial("Derp", 5, 251, 100F, 2F, 30);
 		final ArmorMaterial derpArmorMat = new EnumHelper().addArmorMaterial("derp", "textures/models/armor/derpArmorLayer1", 259, new int[]{2, 6, 5, 2}, 15);
 
-		GameRegistry.addShapedRecipe(new ItemStack(derpBlock, 1), "ddd", "ddd", "ddd", 'd', dIS);
-		GameRegistry.addShapelessRecipe(new ItemStack(derpIngot, 9), new ItemStack(derpBlock));
+		GameRegistry.addShapedRecipe(new ItemStack(DerpModRegistrar.derpBlock, 1), "ddd", "ddd", "ddd", 'd', dIS);
+		GameRegistry.addShapelessRecipe(new ItemStack(derpIngot, 9), new ItemStack(DerpModRegistrar.derpBlock));
 
 		derpSword = new ItemDerpSword(derpM);
 		GameRegistry.registerItem(derpSword, derpSword.getUnlocalizedName());
@@ -190,11 +182,11 @@ public class DerpMod
 		trollGem = new ItemTrollGem();
 		ItemStack tGS = new ItemStack(trollGem);
 		GameRegistry.registerItem(trollGem, trollGem.getUnlocalizedName());
-		GameRegistry.addShapedRecipe(new ItemStack(trollGem, 8), "ooo", "oco", "ooo", 'o', new ItemStack(trollOre), 'c', new ItemStack(Items.coal));
+		GameRegistry.addShapedRecipe(new ItemStack(trollGem, 8), "ooo", "oco", "ooo", 'o', new ItemStack(DerpModRegistrar.trollOre), 'c', new ItemStack(Items.coal));
 		Item.ToolMaterial trollM = new EnumHelper().addToolMaterial("Troll", 5, 1337, 100F, 1F, 30);
 
-		GameRegistry.addShapedRecipe(new ItemStack(trollBlock, 1), "ttt", "ttt", "ttt", 't', new ItemStack(trollGem));
-		GameRegistry.addShapelessRecipe(new ItemStack(trollGem, 9), new ItemStack(trollBlock, 1));
+		GameRegistry.addShapedRecipe(new ItemStack(DerpModRegistrar.trollBlock, 1), "ttt", "ttt", "ttt", 't', new ItemStack(trollGem));
+		GameRegistry.addShapelessRecipe(new ItemStack(trollGem, 9), new ItemStack(DerpModRegistrar.trollBlock, 1));
 
         trollchemistsStone = new ItemTrollchemistsStone();
         GameRegistry.registerItem(trollchemistsStone, trollchemistsStone.getUnlocalizedName());
@@ -222,7 +214,7 @@ public class DerpMod
 		GameRegistry.registerItem(itemAntibacon, itemAntibacon.getUnlocalizedName());
 		GameRegistry.addShapedRecipe(new ItemStack(itemAntibacon, 8), "ppp", "ptp", "ppp", 'p', new ItemStack(Items.cooked_porkchop), 't', tGS);
 
-		GameRegistry.addShapelessRecipe(new ItemStack(repeaterBomb, 1), Items.repeater, Blocks.tnt, trollGem);
+		GameRegistry.addShapelessRecipe(new ItemStack(DerpModRegistrar.repeaterBomb, 1), Items.repeater, Blocks.tnt, trollGem);
 		
 		int entityId = EntityRegistry.findGlobalUniqueEntityId();
 		EntityRegistry.registerModEntity(EntityDerpGrenade.class, "EntityDerpGrenade", entityId, instance, 64, 1, true);
@@ -261,7 +253,7 @@ public class DerpMod
 		GameRegistry.addShapedRecipe(new ItemStack(explosionScroll, 1), "spr", "gtr", "gps", 'p', Items.paper, 's', Items.stick, 'g', trollGem, 'r', cri, 't', Blocks.tnt);
 		GameRegistry.addShapedRecipe(new ItemStack(explosionScroll, 1), "rps", "rtg", "spg", 'p', Items.paper, 's', Items.stick, 'g', trollGem, 'r', cri, 't', Blocks.tnt);
 		
-		GameRegistry.addSmelting(rageOre, uris0, 0F);
+		GameRegistry.addSmelting(DerpModRegistrar.rageOre, uris0, 0F);
 		GameRegistry.addSmelting(uris0, uris1, 0F);
 		GameRegistry.addSmelting(uris1, uris2, 0F);
 		GameRegistry.addSmelting(uris2, uris3, 0F);
@@ -270,8 +262,8 @@ public class DerpMod
 		GameRegistry.addSmelting(uris5, uris6, 0F);
 		GameRegistry.addSmelting(uris6, criStack, 100F);
 
-		GameRegistry.addShapedRecipe(new ItemStack(rageBlock, 1), "rrr", "rrr", "rrr", 'r', criStack);
-		GameRegistry.addShapelessRecipe(new ItemStack(cri, 9), new ItemStack(rageBlock, 1));
+		GameRegistry.addShapedRecipe(new ItemStack(DerpModRegistrar.rageBlock, 1), "rrr", "rrr", "rrr", 'r', criStack);
+		GameRegistry.addShapelessRecipe(new ItemStack(cri, 9), new ItemStack(DerpModRegistrar.rageBlock, 1));
 
         itemTrolldenApple = new ItemTrolldenApple();
         GameRegistry.registerItem(itemTrolldenApple, itemTrolldenApple.getUnlocalizedName());
@@ -279,8 +271,8 @@ public class DerpMod
 
         itemSwordOfGoodbye = new ItemSwordOfGoodbye(rageM);
         GameRegistry.registerItem(itemSwordOfGoodbye, itemSwordOfGoodbye.getUnlocalizedName());
-        GameRegistry.addShapedRecipe(new ItemStack(itemSwordOfGoodbye, 1), "tt ","rr ", "ss ", 't', new ItemStack(trollBlock, 1), 'r', criStack, 's', new ItemStack(Items.stick));
-        GameRegistry.addShapedRecipe(new ItemStack(itemSwordOfGoodbye, 1), " tt"," rr", " ss", 't', new ItemStack(trollBlock, 1), 'r', criStack, 's', new ItemStack(Items.stick));
+        GameRegistry.addShapedRecipe(new ItemStack(itemSwordOfGoodbye, 1), "tt ","rr ", "ss ", 't', new ItemStack(DerpModRegistrar.trollBlock, 1), 'r', criStack, 's', new ItemStack(Items.stick));
+        GameRegistry.addShapedRecipe(new ItemStack(itemSwordOfGoodbye, 1), " tt"," rr", " ss", 't', new ItemStack(DerpModRegistrar.trollBlock, 1), 'r', criStack, 's', new ItemStack(Items.stick));
 
         rageBattlehoe = new ItemRageBattlehoe(rageM);
         GameRegistry.registerItem(rageBattlehoe, rageBattlehoe.getUnlocalizedName());
@@ -296,6 +288,10 @@ public class DerpMod
 	@Mod.EventHandler
 	public void init(FMLInitializationEvent event)
     {
+        if(event.getSide()==Side.CLIENT) {
+            RenderItem renderItem = Minecraft.getMinecraft().getRenderItem();
+            renderItem.getItemModelMesher().register(derpIngot, 0, new ModelResourceLocation(DerpMod.MODID + ":derpIngot" , "inventory"));
+        }
         EntityRegistry.registerGlobalEntityID(EntityRageGuy.class, "rageGuy", EntityRegistry.findGlobalUniqueEntityId(), 16777215, 256);
     /*    EntityRegistry.addSpawn(EntityRageGuy.class, 20, 1, 4, EnumCreatureType.MONSTER, BiomeGenBase.swampland);
         EntityRegistry.addSpawn(EntityRageGuy.class, 20, 1, 4, EnumCreatureType.MONSTER, BiomeGenBase.mushroomIsland);

@@ -1,5 +1,6 @@
 package com.tildenprep.derpmod.client.tool;
 
+import com.tildenprep.derpmod.DerpModRegistrar;
 import net.minecraft.block.Block;
 import net.minecraft.entity.EntityLivingBase;
 import net.minecraft.entity.player.EntityPlayer;
@@ -64,16 +65,16 @@ public class ItemPickOfDividingOresByAFraction extends ItemPickaxe{
     			stack = new ItemStack(Blocks.gold_ore, 7);
     			
     		}
-    		else if(block.equals(DerpMod.derpOre)){
-    			stack = new ItemStack(DerpMod.derpOre, 7);
+    		else if(block.equals(DerpModRegistrar.derpOre)){
+    			stack = new ItemStack(DerpModRegistrar.derpOre, 7);
     			
     		}
-    		else if(block.equals(DerpMod.trollOre)){
-    			stack = new ItemStack(DerpMod.trollOre, 7);
+    		else if(block.equals(DerpModRegistrar.trollOre)){
+    			stack = new ItemStack(DerpModRegistrar.trollOre, 7);
     			
     		}
-    		else if(block.equals(DerpMod.rageOre)){
-    			stack = new ItemStack(DerpMod.rageOre, 3);
+    		else if(block.equals(DerpModRegistrar.rageOre)){
+    			stack = new ItemStack(DerpModRegistrar.rageOre, 3);
     		}
             else if(block.equals(Blocks.lit_furnace)){
                 stack = new ItemStack(DerpMod.oreFracDivPick, 1, 0);

@@ -1,5 +1,5 @@
 {
-"variants": {
-"normal": { "model": "trollblock_model" }
-}
+    "variants": {
+        "normal": { "model": "derpmod:trollblock_model" }
+    }
 }

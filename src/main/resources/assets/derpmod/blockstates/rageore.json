@@ -1,5 +1,5 @@
 {
-"variants": {
-"normal": { "model": "rageore_model" }
-}
+    "variants": {
+        "normal": { "model": "derpmod:rageore_model" }
+    }
 }
