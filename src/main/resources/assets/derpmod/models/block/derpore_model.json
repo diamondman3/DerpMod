@@ -1,6 +1,6 @@
 {
     "parent": "block/cube_all",
     "textures": {
-        "all": "derpmod:blocks/derpOre"
+        "all": "derpMod:textures/blocks/derpOre"
     }
 }

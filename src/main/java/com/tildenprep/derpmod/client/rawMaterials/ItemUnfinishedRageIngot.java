@@ -1,13 +1,14 @@
 package com.tildenprep.derpmod.client.rawMaterials;
 
 import com.tildenprep.derpmod.DerpMod;
+import com.tildenprep.derpmod.client.GenericItem;
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.entity.Entity;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
 import net.minecraft.world.World;
 
-public class ItemUnfinishedRageIngot extends Item{
+public class ItemUnfinishedRageIngot extends GenericItem{
 
 	public int globStage;
 	public ItemUnfinishedRageIngot(int stage){

@@ -1,5 +1,5 @@
 {
-    "variants": {
-        "normal": { "model": "derpmod:derpore_model" }
+"variants": {
+"normal": { "model": "DerpMod:derpore_model" }
     }
 }
