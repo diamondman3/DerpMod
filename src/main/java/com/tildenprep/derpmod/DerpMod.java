@@ -118,16 +118,8 @@ public class DerpMod
 	public void preInit(FMLPreInitializationEvent event)
 	{
 		EntityManager.mainRegistry();
-        BlockRegister registry = new BlockRegister();
-        registry.registerBlocks(derpOre);
-        registry.registerBlocks(derpBlock);
-        registry.registerBlocks(trollOre);
-        registry.registerBlocks(trollBlock);
-        registry.registerBlocks(rageOre);
-        registry.registerBlocks(rageBlock);
-        registry.registerBlocks(repeaterBomb);
-        registry.registerBlocks(reversePiston);
-        registry.registerBlocks(reverseStickyPiston);
+        DerpModRegistrar registry = new DerpModRegistrar();
+        registry.registerBlocks();
 
         itemBurger = new ItemBurger();
         itemCheese = new ItemCheese();
@@ -206,7 +198,7 @@ public class DerpMod
 
 		trollGem = new ItemTrollGem();
 		ItemStack tGS = new ItemStack(trollGem);
-		GameRegistry.registerItem(trollGem, trollGem.getUnlocalizedName());
+		GameRegistry.registerItem(trollGem, "trollGem");
 		GameRegistry.addShapedRecipe(new ItemStack(trollGem, 8), "ooo", "oco", "ooo", 'o', new ItemStack(trollOre), 'c', new ItemStack(Items.coal));
 		Item.ToolMaterial trollM = new EnumHelper().addToolMaterial("Troll", 5, 1337, 100F, 1F, 30);
 
