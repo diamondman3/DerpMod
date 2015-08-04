@@ -12,13 +12,19 @@ import java.util.Random;
  */
 public class DerpOre extends Block {
 
+    String name = "derpOre";
+
     public DerpOre (Material material)
     {
         super(material);
-        setUnlocalizedName("derpmod:derpOre");
+        setUnlocalizedName(DerpMod.MODID + "_" + name);
         setCreativeTab(DerpMod.tabDerpMod);
         setHardness(2.0F);
         setStepSound(Block.soundTypeWood);
         setHarvestLevel("pickaxe", 2);
+    }
+
+    public String getName(){
+        return name;
     }
 }

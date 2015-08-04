@@ -20,15 +20,21 @@ public class DerpModRegistrar {
     public final static Block repeaterBomb = new RepeaterBomb();
     public final static Block rageOre = new RageOre(Material.rock);
     public final static Block rageBlock= new RageBlock(Material.rock);
+    public final static Block reversePiston = new ReversePiston(false);
+    public final static Block reverseStickyPiston = new ReversePiston(true);
+
+
 
     public void registerBlocks(){
 
-        GameRegistry.registerBlock(derpOre, "derpOre");
-        GameRegistry.registerBlock(trollOre, "trollOre");
-        GameRegistry.registerBlock(rageOre, "rageOre");
-        GameRegistry.registerBlock(derpBlock, "derpBlock");
-        GameRegistry.registerBlock(trollBlock, "trollBlock");
-        GameRegistry.registerBlock(rageBlock, "rageBlock");
-        GameRegistry.registerBlock(repeaterBomb, "repeaterBomb");
+        GameRegistry.registerBlock(derpOre, derpOre.getUnlocalizedName());
+        GameRegistry.registerBlock(derpBlock, derpBlock.getUnlocalizedName());
+        GameRegistry.registerBlock(trollOre, trollOre.getUnlocalizedName());
+        GameRegistry.registerBlock(rageOre, rageOre.getUnlocalizedName());
+        GameRegistry.registerBlock(trollBlock, trollBlock.getUnlocalizedName());
+        GameRegistry.registerBlock(rageBlock, rageBlock.getUnlocalizedName());
+        GameRegistry.registerBlock(repeaterBomb, repeaterBomb.getUnlocalizedName());
+        GameRegistry.registerBlock(reversePiston, reversePiston.getUnlocalizedName());
+        GameRegistry.registerBlock(reverseStickyPiston, reverseStickyPiston.getUnlocalizedName());
     }
 }

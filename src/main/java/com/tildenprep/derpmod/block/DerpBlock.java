@@ -8,17 +8,20 @@ import net.minecraft.client.resources.model.ModelResourceLocation;
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraftforge.fml.common.registry.GameRegistry;
 
+import java.lang.ref.Reference;
 import java.util.Random;
 
 /**
  * Created by kenny on 3/19/14.
  */
-public class DerpBlock extends Block {
+public class DerpBlock extends Block{
+
+    public final String name = "derpBlock";
 
     public DerpBlock (Material material)
     {
         super(Material.rock);
-        setUnlocalizedName("derpBlock");
+        setUnlocalizedName(DerpMod.MODID + "_" + name);
         setCreativeTab(DerpMod.tabDerpMod);
         setHardness(2.0F);
         setStepSound(Block.soundTypeStone);
@@ -28,5 +31,10 @@ public class DerpBlock extends Block {
     public int idDropped(int par1, Random par2Random, int par3)
     {
         return 0;
+    }
+
+    public String getName()
+    {
+        return name;
     }
 }
