@@ -14,6 +14,8 @@ import com.tildenprep.derpmod.entity.EntityDerpGrenade;
 import com.tildenprep.derpmod.entity.EntityRageGuy;
 import com.tildenprep.derpmod.entity.ScrollSpellEntity;
 import com.tildenprep.derpmod.render.RenderRageGuy;
+import net.minecraft.client.resources.model.ModelResourceLocation;
+import net.minecraftforge.client.model.ModelLoader;
 import net.minecraftforge.fml.client.registry.RenderingRegistry;
 
 import javax.swing.text.html.parser.Entity;
@@ -22,6 +24,10 @@ import javax.swing.text.html.parser.Entity;
  * Created by kenny on 5/21/14.
  */
 public class ClientProxy extends CommonProxy {
+
+    public void preInit(){
+
+    };
 
     @Override
     public void registerRenderers() {

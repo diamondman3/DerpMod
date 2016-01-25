@@ -21,18 +21,23 @@ import net.minecraftforge.fml.relauncher.SideOnly;
  */
 public class RepeaterBomb extends BlockRedstoneRepeater {
 
+    public final String name = "materialRepeaterBomb";
     boolean exploded;
     //Todo: Bomb explodes when powered from any side.
 
     public RepeaterBomb ()
     {
     	super(false);
-        setUnlocalizedName("repeaterBomb");
+        setUnlocalizedName(DerpMod.MODID+"_"+name);
         setCreativeTab(DerpMod.tabDerpMod);
         setHardness(0F);
         exploded = false;
         setStepSound(Block.soundTypeStone);
 
+    }
+
+    public String getName(){
+        return name;
     }
 
     public Item getItemDropped(int p_149650_1_, Random p_149650_2_, int p_149650_3_)

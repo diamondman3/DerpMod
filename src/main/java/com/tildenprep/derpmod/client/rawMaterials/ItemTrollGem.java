@@ -8,13 +8,13 @@ import net.minecraftforge.fml.common.registry.GameRegistry;
 
 public class ItemTrollGem extends GenericItem {
 
-    public final String name = "trollGem";
+    public final String name = "gemTroll";
 
     public ItemTrollGem() {
         super();
         setCreativeTab(DerpMod.tabDerpMod);
         setMaxStackSize(63);
-        setUnlocalizedName("trollGem");
+        setUnlocalizedName(DerpMod.MODID+"_"+name);
         GameRegistry.registerItem(this, name);
     }
 

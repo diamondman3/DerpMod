@@ -12,17 +12,24 @@ import net.minecraft.util.BlockPos;
 import net.minecraft.world.World;
 
 import com.tildenprep.derpmod.DerpMod;
+import net.minecraftforge.fml.common.registry.GameRegistry;
 
 public class ItemPickOfDividingOresByAFraction extends ItemPickaxe{
 	
 	ItemStack stack = new ItemStack(Blocks.stone);
+    private final String name = "pickOfDividingOresByAFraction";
 	
 	public ItemPickOfDividingOresByAFraction(ToolMaterial material){
 		super(material);
         setCreativeTab(DerpMod.tabDerpMod);
         setMaxStackSize(1);
-        setUnlocalizedName("pickOfDividingOresByAFraction");
+        setUnlocalizedName(DerpMod.MODID + "_" + name);
+        GameRegistry.registerItem(this, name);
 	}
+
+    public String getName(){
+        return name;
+    }
 
     @Override
     public ItemStack onItemRightClick(ItemStack p_77659_1_, World p_77659_2_, EntityPlayer p_77659_3_) {
@@ -77,7 +84,7 @@ public class ItemPickOfDividingOresByAFraction extends ItemPickaxe{
     			stack = new ItemStack(DerpModRegistrar.rageOre, 3);
     		}
             else if(block.equals(Blocks.lit_furnace)){
-                stack = new ItemStack(DerpMod.oreFracDivPick, 1, 0);
+                stack = new ItemStack(DerpMod.pickOfDividingOresByAFraction, 1, 0);
                 
             }
     			player.entityDropItem(stack, 1);

@@ -6,22 +6,24 @@ import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.item.ItemFood;
 import net.minecraft.item.ItemStack;
 import net.minecraft.world.World;
+import net.minecraftforge.fml.common.registry.GameRegistry;
 
 /**
  * Created by kenny on 5/7/14.
  */
 public class ItemAntibacon extends ItemFood {
 
+private final String name = "antibacon";
+
     public ItemAntibacon(){
         super(-8, -12.8F, true);
         this.setAlwaysEdible();
         setCreativeTab(DerpMod.tabDerpMod);
-        setUnlocalizedName("itemAntibacon");
+        setUnlocalizedName(DerpMod.MODID + "_" + name);
+        GameRegistry.registerItem(this, name);
     }
 
-    public void onFoodEaten(ItemStack par1ItemStack, World par2World, EntityPlayer par3EntityPlayer)
-    {
-        par2World.playSoundAtEntity(par3EntityPlayer,("derpmod:trollSongClip"), 1, 1);
-
+    public String getName(){
+        return name;
     }
 }

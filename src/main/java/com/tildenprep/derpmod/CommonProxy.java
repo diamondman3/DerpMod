@@ -5,6 +5,8 @@ package com.tildenprep.derpmod;
  */
 public class CommonProxy {
 
+    public void preInit(){}
+
     public void registerRenderers() {
         // Nothing here as the server doesn't render graphics or entities!
     }

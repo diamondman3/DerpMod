@@ -9,9 +9,15 @@ import net.minecraft.item.ItemFood;
  */
 public class ItemBurger extends ItemFood{
 
+    private final String name = "burger";
+
     public ItemBurger(){
         super(18, 24.8F, true);
         this.setCreativeTab(DerpMod.tabDerpMod);
-        setUnlocalizedName("itemBurger");
+        setUnlocalizedName(DerpMod.MODID + "_" + name);
+    }
+
+    public String getName(){
+        return name;
     }
 }

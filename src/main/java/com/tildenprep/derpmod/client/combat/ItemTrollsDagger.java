@@ -5,16 +5,22 @@ import net.minecraft.item.ItemStack;
 import net.minecraft.item.ItemSword;
 import net.minecraft.potion.Potion;
 import net.minecraft.potion.PotionEffect;
+import net.minecraftforge.fml.common.registry.GameRegistry;
 
 
 public class ItemTrollsDagger extends ItemSword{
+
+    private final String name = "trollsDagger";
 	
 	public ItemTrollsDagger(ToolMaterial material){
 		super(material);
         setCreativeTab(DerpMod.tabDerpMod);
         setMaxStackSize(1);
-        setUnlocalizedName("trollsDagger");
+        setUnlocalizedName(DerpMod.MODID + "_" + name);
+        GameRegistry.registerItem(this, name);
 	}
+
+    public String getName(){return name;}
 	
 	public boolean hitEntity(ItemStack stack, EntityLivingBase target, EntityLivingBase attacker)
     {

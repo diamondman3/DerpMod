@@ -7,41 +7,30 @@ import net.minecraft.entity.Entity;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
 import net.minecraft.world.World;
+import net.minecraftforge.fml.common.registry.GameRegistry;
 
 public class ItemUnfinishedRageIngot extends GenericItem{
 
+    private String name = "uri";
 	public int globStage;
+    public String stageAsString = "0";
+
 	public ItemUnfinishedRageIngot(int stage){
         super();
         this.globStage = stage;
-        switch(stage){
-        case 0:
-        	setUnlocalizedName("uri1");
-        	break;
-        case 1:
-        	setUnlocalizedName("uri2");
-        	break;
-        case 2:
-        	setUnlocalizedName("uri3");
-        	break;
-        case 3:
-        	setUnlocalizedName("uri4");
-        	break;
-        case 4:
-        	setUnlocalizedName("uri5");
-        	break;
-        case 5:
-        	setUnlocalizedName("uri6");
-        	break;
-        case 6:
-        	setUnlocalizedName("uri7");
-        	break;
-        }
+        stageAsString = stage + "";
+        setUnlocalizedName(DerpMod.MODID + "_" + name + stageAsString);
         setCreativeTab(DerpMod.tabDerpMod);
         setMaxStackSize(64);
         setMaxDamage(6);
+        name = name + stageAsString;
+        GameRegistry.registerItem(this, name);
 	}
 	public int getGlobStage(){
 		return globStage;
 	}
+
+    public String getName(){
+        return name;
+    }
 }

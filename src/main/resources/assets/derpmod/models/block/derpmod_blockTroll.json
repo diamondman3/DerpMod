@@ -1,0 +1,6 @@
+{
+    "parent": "block/cube_all",
+    "textures": {
+        "all": "derpMod:blocks/trollBlock"
+    }derpmod_blockTroll.json
+}

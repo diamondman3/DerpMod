@@ -10,6 +10,7 @@ import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.init.Blocks;
 import net.minecraft.item.ItemStack;
 import net.minecraft.world.World;
+import net.minecraftforge.fml.common.registry.GameRegistry;
 
 import java.util.Random;
 
@@ -22,13 +23,20 @@ public class ItemRageBattlehoe extends ItemBattlehoe {
     ItemStack droppedItem = new ItemStack(Blocks.dirt, 1);
     EntityItem entityDroppedItem = new EntityItem(null);
     World w = null;
+    public final String name = "rageBattlehoe";
 
     public ItemRageBattlehoe(ToolMaterial material){
-        super(material, "Hit an enemy player to", "break their equips! -dm3");
+        super(material, "Hit a player to", "break their equipment! -dm3");
         setCreativeTab(DerpMod.tabDerpMod);
         setMaxStackSize(1);
-        setUnlocalizedName("rageHoe");
+        setUnlocalizedName(DerpMod.MODID + "_" + name);
+        GameRegistry.registerItem(this, name);
     }
+
+    public String getName(){
+        return name;
+    }
+
     //drop equip
     @Override
     public boolean hitEntity(ItemStack stack, EntityLivingBase player, EntityLivingBase target) {
@@ -37,7 +45,7 @@ public class ItemRageBattlehoe extends ItemBattlehoe {
         //ItemStack damagedArmor = new ItemStack(DerpMod.derpHelmet, 1, 549);
         w = player.worldObj;
         if (!w.isRemote) {
-            //thinks armored zombie is player
+            //considers armored mob player
             if(target instanceof EntityPlayer){
                 armor = ((EntityPlayer) target).getCurrentArmor(0);
 /*error here*/  armor.setItemDamage(armor.getItemDamage() + 20);

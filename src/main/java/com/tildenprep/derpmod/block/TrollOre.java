@@ -12,14 +12,20 @@ import java.util.Random;
  */
 public class TrollOre extends Block {
 
+    public final String name = "oreTroll";
+
     public TrollOre (Material material)
     {
         super(material);
-        setUnlocalizedName("trollOre");
+        setUnlocalizedName(DerpMod.MODID+"_"+name);
         setCreativeTab(DerpMod.tabDerpMod);
         setHardness(2.0F);
         setStepSound(Block.soundTypeStone);
         setHarvestLevel("axe", 2);
+    }
+
+    public String getName(){
+        return name;
     }
 
     public int idDropped(int par1, Random par2Random, int par3)

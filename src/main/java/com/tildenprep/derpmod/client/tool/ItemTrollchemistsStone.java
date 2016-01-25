@@ -7,22 +7,24 @@ import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
 import net.minecraft.world.WorldSettings;
+import net.minecraftforge.fml.common.registry.GameRegistry;
 
-/**
- * Created by diamondman3 on 11/9/2014.
- */
 public class ItemTrollchemistsStone extends GenericItem{
+
+    private final String name = "trollchemistsStone";
+
     public ItemTrollchemistsStone(){
         super();
         setCreativeTab(DerpMod.tabDerpMod);
         setMaxStackSize(1);
-        setUnlocalizedName("trollchemistsStone");
+        setUnlocalizedName(DerpMod.MODID + "_" + name);
         setNoRepair();
         setMaxDamage(64);
         int dmg = this.getDamage(new ItemStack(this)) + 1;
         ItemStack stone = new ItemStack(this, dmg);
         Item stoneIndividual = stone.getItem();
         setContainerItem(stoneIndividual);
+        GameRegistry.registerItem(this, name);
     }
 
     public boolean doesContainerItemLeaveCraftingGrid(ItemStack itemstack) {

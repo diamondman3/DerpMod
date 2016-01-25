@@ -1,5 +1,5 @@
 {
-    "parent": "derpmod:block/RageBlock",
+    "parent": "derpmod:block/rageOre",
     "display": {
         "thirdperson": {
             "rotation": [ 10, -45, 170 ],

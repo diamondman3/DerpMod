@@ -10,11 +10,15 @@ import net.minecraftforge.fml.common.registry.GameRegistry;
  * Created by kenny on 3/19/14.
  */
 public class ItemDerpIngot extends GenericItem{
+
+    private final String name = "ingotDerp";
     public ItemDerpIngot(){
         super();
         setCreativeTab(DerpMod.tabDerpMod);
         setMaxStackSize(64);
-        setUnlocalizedName("derpIngot");
-        GameRegistry.registerItem(this, this.getName());
+        setUnlocalizedName(DerpMod.MODID + "_" + name);
+        GameRegistry.registerItem(this, name);
     }
+
+    public String getName(){return name;}
 }

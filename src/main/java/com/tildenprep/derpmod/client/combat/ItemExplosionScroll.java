@@ -7,19 +7,25 @@ import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
 import net.minecraft.world.World;
+import net.minecraftforge.fml.common.registry.GameRegistry;
 
 import com.tildenprep.derpmod.entity.ScrollSpellEntity;
 
 public class ItemExplosionScroll extends GenericItem {
 
+    public final String name = "explosionScroll";
+
 	public ItemExplosionScroll(){
 		super();
         setCreativeTab(DerpMod.tabDerpMod);
-        setUnlocalizedName("explosionScroll");
+        setUnlocalizedName(DerpMod.MODID + "_" + name);
         setMaxDamage(32);
         setMaxStackSize(1);
+        GameRegistry.registerItem(this, name);
 	}
-	
+
+    public String getName(){return name;}
+
 	 public ItemStack onItemRightClick(ItemStack stack, World w, EntityPlayer player)
 	  {
 	     if (!w.isRemote)

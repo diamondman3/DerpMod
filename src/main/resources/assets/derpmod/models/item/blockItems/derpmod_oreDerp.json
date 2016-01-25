@@ -1,5 +1,5 @@
 {
-    "parent": "derpmod:block/TrollOre",
+    "parent": "derpmod:block/derpOre",
     "display": {
         "thirdperson": {
             "rotation": [ 10, -45, 170 ],

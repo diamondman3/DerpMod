@@ -1,7 +1,7 @@
 {
     "parent": "builtin/generated",
     "textures": {
-        "layer0": "DerpMod:items/derpIngot.png"
+        "layer0": "derpmod:items/explosionScroll"
     },
     "display": {
         "thirdperson": {

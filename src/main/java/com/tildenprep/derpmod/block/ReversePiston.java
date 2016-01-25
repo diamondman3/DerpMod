@@ -30,15 +30,20 @@ public class ReversePiston extends BlockPistonBase {
 
     boolean isSticky = false;
     boolean isReversed = false;
+    public final String name = "reversePiston";
 
     public ReversePiston(boolean isSticky) {
         super(isSticky);
         setCreativeTab(DerpMod.tabDerpMod);
-        if (isSticky) {
-            setUnlocalizedName("reversePiston");
+        if (!isSticky) {
+            setUnlocalizedName(DerpMod.MODID+"_"+name);
         } else {
-            setUnlocalizedName("reverseStickyPiston");
+            setUnlocalizedName(DerpMod.MODID+"_reverseStickyPiston");
         }
+    }
+
+    public String getName(){
+        return name;
     }
 
     public static EnumFacing getFacing(int meta) {
