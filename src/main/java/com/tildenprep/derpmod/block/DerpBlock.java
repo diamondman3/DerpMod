@@ -19,7 +19,7 @@ public class DerpBlock extends Block{
 
     public final String name = "blockDerp";
 
-    public DerpBlock (Material material)
+    public DerpBlock(Material material)
     {
         super(Material.rock);
         setUnlocalizedName(DerpMod.MODID+"_"+name);

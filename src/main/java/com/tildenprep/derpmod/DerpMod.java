@@ -1,8 +1,5 @@
 package com.tildenprep.derpmod;
 
-import java.lang.ref.Reference;
-import java.util.*;
-
 import com.tildenprep.derpmod.block.*;
 import com.tildenprep.derpmod.client.*;
 import com.tildenprep.derpmod.client.combat.*;
@@ -15,23 +12,17 @@ import com.tildenprep.derpmod.client.tool.*;
 import com.tildenprep.derpmod.client.tool.ItemPickOfDividingOresByAFraction;
 import com.tildenprep.derpmod.entity.EntityLolcat;
 import com.tildenprep.derpmod.entity.EntityRageGuy;
-import net.minecraft.block.Block;
-import net.minecraft.block.material.MapColor;
-import net.minecraft.block.material.Material;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.renderer.entity.RenderItem;
 import net.minecraft.client.resources.model.ModelResourceLocation;
 import net.minecraft.creativetab.CreativeTabs;
-import net.minecraft.entity.EnumCreatureType;
 import net.minecraft.init.Blocks;
 import net.minecraft.init.Items;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemArmor.ArmorMaterial;
 import net.minecraft.item.ItemStack;
-import net.minecraft.world.biome.BiomeGenBase;
 import net.minecraftforge.common.util.EnumHelper;
 
-import com.tildenprep.derpmod.entity.EntityDerpGrenade;
 import com.tildenprep.derpmod.entity.EntityManager;
 import com.tildenprep.derpmod.world.DerpWorld;
 
@@ -69,7 +60,6 @@ public class DerpMod
     };
 
     public static ItemDerpIngot derpIngot;
-    //Minecraft.getMinecraft().getRenderItem().getItemModelMesher().register(ItemDerpIngot, 0, new ModelResourceLocation("derpmod:textures/items/derpIngot.png", "inventory"));
     public static ItemDerpSword derpSword;
     public static ItemDerpShovel derpShovel;
     public static ItemDerpPickaxe derpPickaxe;

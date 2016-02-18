@@ -1,15 +1,10 @@
 package com.tildenprep.derpmod;
 
 import com.tildenprep.derpmod.block.*;
-import com.tildenprep.derpmod.client.rawMaterials.*;
-import net.minecraft.block.Block;
 import net.minecraft.block.material.MapColor;
 import net.minecraft.block.material.Material;
 import net.minecraftforge.fml.common.registry.GameRegistry;
-import net.minecraft.item.Item;
 import net.minecraftforge.oredict.OreDictionary;
-
-import java.util.ArrayList;
 
 /**
  * Created by diamondman3 on 7/6/2015.

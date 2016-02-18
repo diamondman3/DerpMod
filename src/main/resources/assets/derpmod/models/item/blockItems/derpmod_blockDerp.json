@@ -1,5 +1,5 @@
 {
-    "parent": "derpmod:block/derpBlock",
+    "parent": "derpmod:block/blockDerp",
     "display": {
         "thirdperson": {
             "rotation": [ 10, -45, 170 ],
